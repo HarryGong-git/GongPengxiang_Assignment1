@@ -1,0 +1,8 @@
+reason_code,reason_text,count,low_confidence_rate
+AA-CR-01,Credit score below program threshold,209,0.081
+AA-DTI-02,Debt-to-income ratio too high,77,0.013
+AA-EMP-03,Insufficient length of employment history,25,0.0
+AA-INC-06,Income history appears unstable or difficult to verify,26,0.0
+AA-LTV-04,Requested credit amount high relative to verified income,2,0.0
+AA-THIN-05,Limited credit file information,66,0.015
+REVIEW-PROXY,Manual review required: geographic proxy must not be used as a final consumer reason,116,1.0

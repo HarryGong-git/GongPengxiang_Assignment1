@@ -1,0 +1,15 @@
+{
+  "n_rows": 1400,
+  "us_rows": 700,
+  "eu_rows": 700,
+  "us_declined": 521,
+  "us_low_confidence_reason_rate": 0.2591170825335892,
+  "us_high_postcode_denial_gap": 0.3176641949152542,
+  "us_thin_file_denial_gap": 0.26486524358914465,
+  "eu_approval_disparity_ratio": 0.3469449485783424,
+  "eu_fnr_gap": 0.26533996683250416,
+  "eu_fpr_gap": 0.09175824175824175,
+  "eu_model_score_psi": 0.004665041184465136,
+  "eu_dti_psi": 0.0537195447121519,
+  "eu_predeployment_completeness": 0.875
+}

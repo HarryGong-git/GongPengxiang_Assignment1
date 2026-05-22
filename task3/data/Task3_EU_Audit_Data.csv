@@ -1,0 +1,701 @@
+applicant_id,jurisdiction,age,income,credit_score,debt_to_income,employment_length,loan_amount,postcode_risk_band,thin_file_flag,income_instability_flag,model_score,decision,observed_default,gender_audit,age_band,protected_group_flag,audit_group,denial_feature_candidate
+APP-00003,EU,34,63165,737,0.319,13.7,21617,Low,1,0,0.7096,Approved,0,Male,26-35,0,Reference audit group,thin_file_flag
+APP-00004,EU,43,38978,553,0.325,8.0,14469,Low,1,0,0.1371,Declined,0,Female,36-45,1,Protected audit group,credit_score
+APP-00011,EU,19,127300,757,0.302,2.3,58741,Medium,0,0,0.7912,Approved,0,Female,19-25,0,Reference audit group,postcode_risk_band
+APP-00013,EU,35,66881,724,0.488,9.1,26364,Medium,0,0,0.6361,Approved,0,Female,26-35,0,Reference audit group,debt_to_income
+APP-00018,EU,35,33746,745,0.252,4.0,16024,Low,0,0,0.7278,Approved,0,Male,26-35,0,Reference audit group,credit_score
+APP-00022,EU,30,39966,576,0.242,1.8,12861,High,0,0,0.1525,Declined,0,Male,26-35,1,Protected audit group,credit_score
+APP-00024,EU,58,85202,781,0.386,2.2,31852,Medium,0,0,0.7933,Approved,0,Female,56+,0,Reference audit group,postcode_risk_band
+APP-00025,EU,31,33199,686,0.256,2.3,17404,Low,0,0,0.5121,Declined,0,Male,26-35,0,Reference audit group,credit_score
+APP-00029,EU,31,52132,663,0.264,5.2,26794,Medium,0,0,0.4673,Declined,0,Female,26-35,0,Reference audit group,postcode_risk_band
+APP-00030,EU,53,88170,689,0.422,9.4,41217,Medium,0,0,0.5759,Approved,0,Female,46-55,0,Reference audit group,debt_to_income
+APP-00032,EU,30,31545,753,0.398,3.5,15832,High,0,0,0.5576,Declined,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-00033,EU,29,90232,704,0.318,7.3,33200,Medium,0,1,0.6241,Approved,0,Male,26-35,1,Protected audit group,income_instability_flag
+APP-00038,EU,39,42139,652,0.29,8.9,14745,Low,1,0,0.406,Declined,0,Male,36-45,1,Protected audit group,thin_file_flag
+APP-00039,EU,32,45868,663,0.4,7.5,17776,Medium,1,0,0.3331,Declined,0,Female,26-35,1,Protected audit group,thin_file_flag
+APP-00040,EU,44,59802,583,0.535,5.6,39688,Low,0,1,0.1401,Declined,1,Male,36-45,0,Reference audit group,credit_score
+APP-00041,EU,41,45944,657,0.273,9.7,18084,High,0,0,0.4197,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00042,EU,49,61776,733,0.341,6.2,24792,Medium,0,1,0.6457,Approved,0,Female,46-55,0,Reference audit group,income_instability_flag
+APP-00043,EU,37,60611,667,0.255,3.0,20401,Very High,0,0,0.3756,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00044,EU,30,83202,725,0.371,7.1,39848,High,0,0,0.6359,Approved,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-00046,EU,43,40237,724,0.372,2.1,27001,Medium,0,0,0.5221,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00048,EU,53,63403,726,0.307,2.6,28124,Low,0,0,0.6977,Approved,0,Female,46-55,0,Reference audit group,credit_score
+APP-00050,EU,31,79241,667,0.45,4.9,38419,Low,0,0,0.4854,Declined,0,Male,26-35,1,Protected audit group,debt_to_income
+APP-00051,EU,37,34516,578,0.361,3.5,15400,Very High,0,0,0.0977,Declined,0,Female,36-45,1,Protected audit group,credit_score
+APP-00052,EU,35,41803,632,0.352,3.1,14658,Low,0,0,0.3465,Declined,0,Female,26-35,0,Reference audit group,credit_score
+APP-00053,EU,21,31758,517,0.265,4.0,9869,Very High,0,0,0.0586,Declined,0,Male,19-25,1,Protected audit group,credit_score
+APP-00054,EU,50,73922,623,0.343,4.8,31211,Low,1,1,0.2499,Declined,0,Male,46-55,0,Reference audit group,thin_file_flag
+APP-00055,EU,43,86025,618,0.297,0.7,27293,High,0,0,0.2736,Declined,1,Male,36-45,0,Reference audit group,employment_length
+APP-00058,EU,34,119268,678,0.269,6.5,80698,Low,0,0,0.6527,Approved,0,Female,26-35,0,Reference audit group,loan_amount
+APP-00060,EU,19,83260,700,0.207,5.1,28501,Low,0,1,0.6821,Approved,0,Male,19-25,0,Reference audit group,income_instability_flag
+APP-00064,EU,36,34866,632,0.362,11.9,20248,Very High,1,1,0.1201,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00066,EU,26,56448,690,0.137,3.5,22053,Very High,0,0,0.5036,Declined,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-00067,EU,46,38367,730,0.191,1.8,13056,High,0,0,0.6091,Approved,0,Female,46-55,0,Reference audit group,postcode_risk_band
+APP-00070,EU,32,51060,711,0.392,5.3,26180,Low,0,0,0.6144,Approved,0,Male,26-35,1,Protected audit group,debt_to_income
+APP-00072,EU,41,50421,682,0.285,2.9,18270,High,1,0,0.3426,Declined,0,Male,36-45,0,Reference audit group,thin_file_flag
+APP-00073,EU,54,45800,589,0.385,11.3,19436,Medium,0,1,0.1843,Declined,0,Female,46-55,0,Reference audit group,credit_score
+APP-00078,EU,54,20221,739,0.216,10.7,8882,Low,0,1,0.6766,Approved,0,Male,46-55,0,Reference audit group,income_instability_flag
+APP-00079,EU,19,55713,751,0.327,2.2,20724,High,0,0,0.6487,Approved,0,Male,19-25,0,Reference audit group,postcode_risk_band
+APP-00081,EU,27,31137,740,0.17,1.3,5780,Medium,0,0,0.7008,Approved,0,Male,26-35,0,Reference audit group,employment_length
+APP-00082,EU,45,51630,622,0.386,1.2,16221,Low,0,0,0.3037,Declined,0,Female,36-45,0,Reference audit group,credit_score
+APP-00085,EU,38,33006,727,0.277,4.3,18192,Low,0,0,0.657,Approved,0,Female,36-45,0,Reference audit group,loan_amount
+APP-00092,EU,47,85085,711,0.182,2.0,39903,Low,0,0,0.7272,Approved,0,Male,46-55,0,Reference audit group,credit_score
+APP-00093,EU,44,52975,723,0.286,8.3,26290,High,0,0,0.633,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00094,EU,37,36893,675,0.332,5.1,18918,Low,0,0,0.487,Declined,1,Female,36-45,0,Reference audit group,credit_score
+APP-00098,EU,46,68499,693,0.407,4.0,32782,Medium,0,1,0.4506,Declined,0,Male,46-55,1,Protected audit group,income_instability_flag
+APP-00100,EU,36,53733,693,0.29,4.2,18772,Very High,1,0,0.3439,Declined,0,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-00101,EU,24,39810,743,0.379,2.7,12325,Low,0,0,0.6875,Approved,1,Female,19-25,0,Reference audit group,debt_to_income
+APP-00102,EU,53,50235,577,0.465,6.4,18727,Low,1,0,0.1438,Declined,1,Female,46-55,1,Protected audit group,credit_score
+APP-00103,EU,39,52778,707,0.372,15.5,19978,High,1,0,0.4489,Declined,0,Male,36-45,0,Reference audit group,thin_file_flag
+APP-00104,EU,25,96168,756,0.477,1.0,34323,Low,0,0,0.7377,Approved,0,Female,19-25,0,Reference audit group,employment_length
+APP-00105,EU,37,66400,566,0.539,4.2,38374,Medium,0,1,0.0951,Declined,0,Female,36-45,1,Protected audit group,credit_score
+APP-00106,EU,33,41052,704,0.434,8.0,23620,Medium,0,0,0.5193,Declined,0,Male,26-35,0,Reference audit group,debt_to_income
+APP-00112,EU,35,52952,642,0.27,14.5,13377,Medium,0,0,0.4714,Declined,1,Female,26-35,1,Protected audit group,credit_score
+APP-00114,EU,19,36147,557,0.27,3.7,17179,Medium,1,0,0.0979,Declined,0,Male,19-25,0,Reference audit group,credit_score
+APP-00120,EU,45,72868,626,0.521,14.3,35543,Low,0,0,0.3474,Declined,0,Female,36-45,0,Reference audit group,debt_to_income
+APP-00121,EU,21,58779,671,0.31,0.5,27595,Low,0,0,0.4805,Declined,0,Female,19-25,0,Reference audit group,employment_length
+APP-00124,EU,24,35399,687,0.398,8.2,18418,Medium,1,1,0.3139,Declined,0,Male,19-25,1,Protected audit group,thin_file_flag
+APP-00125,EU,38,64004,642,0.111,5.9,19822,Medium,1,0,0.4344,Declined,1,Male,36-45,1,Protected audit group,thin_file_flag
+APP-00127,EU,27,56920,605,0.441,7.5,40033,Low,0,0,0.267,Declined,1,Male,26-35,1,Protected audit group,credit_score
+APP-00128,EU,36,62908,799,0.259,0.6,30033,Low,0,1,0.8235,Approved,0,Female,36-45,0,Reference audit group,employment_length
+APP-00132,EU,36,80544,727,0.235,3.1,20107,Medium,0,0,0.7366,Approved,1,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00135,EU,37,57081,529,0.226,6.3,24242,Very High,1,0,0.0673,Declined,0,Female,36-45,1,Protected audit group,credit_score
+APP-00138,EU,52,69427,655,0.456,4.0,39898,Medium,0,0,0.3511,Declined,1,Male,46-55,0,Reference audit group,debt_to_income
+APP-00140,EU,56,52328,646,0.396,0.8,28112,Medium,0,0,0.2908,Declined,0,Male,56+,0,Reference audit group,employment_length
+APP-00141,EU,34,36897,752,0.359,6.6,16126,Medium,0,0,0.6981,Approved,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-00142,EU,38,33825,658,0.346,6.9,9840,High,0,1,0.2989,Declined,0,Female,36-45,1,Protected audit group,postcode_risk_band
+APP-00145,EU,20,26322,760,0.395,5.0,12599,Medium,0,0,0.6472,Approved,0,Female,19-25,1,Protected audit group,postcode_risk_band
+APP-00146,EU,42,23761,565,0.325,5.8,9089,High,1,0,0.0753,Declined,1,Male,36-45,1,Protected audit group,credit_score
+APP-00148,EU,19,149603,642,0.252,4.5,75893,Medium,0,1,0.4503,Declined,1,Male,19-25,0,Reference audit group,income_instability_flag
+APP-00149,EU,35,35267,718,0.372,1.6,18708,High,0,0,0.4359,Declined,1,Female,26-35,1,Protected audit group,postcode_risk_band
+APP-00150,EU,36,54980,677,0.248,5.2,26373,High,0,0,0.469,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00154,EU,38,48532,684,0.278,2.8,21083,Medium,0,0,0.5014,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00155,EU,45,52246,661,0.441,3.6,23003,Medium,0,1,0.305,Declined,0,Female,36-45,0,Reference audit group,income_instability_flag
+APP-00157,EU,27,49092,689,0.544,3.1,31701,Very High,0,1,0.2081,Declined,0,Female,26-35,1,Protected audit group,postcode_risk_band
+APP-00158,EU,65,47355,743,0.283,3.1,22528,Medium,0,0,0.6843,Approved,0,Female,56+,0,Reference audit group,postcode_risk_band
+APP-00159,EU,32,59863,622,0.469,3.2,27573,Low,0,0,0.2866,Declined,0,Male,26-35,0,Reference audit group,credit_score
+APP-00161,EU,46,43143,724,0.14,1.8,15932,Medium,0,0,0.6826,Approved,0,Male,46-55,0,Reference audit group,postcode_risk_band
+APP-00162,EU,21,45637,635,0.293,1.9,13990,Medium,0,0,0.3338,Declined,0,Female,19-25,0,Reference audit group,credit_score
+APP-00163,EU,54,60214,712,0.399,3.9,26534,Medium,1,1,0.4046,Declined,0,Male,46-55,0,Reference audit group,thin_file_flag
+APP-00164,EU,41,40728,669,0.304,4.1,17619,Medium,0,0,0.4358,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00165,EU,37,29779,582,0.26,1.7,15679,High,0,0,0.1269,Declined,0,Female,36-45,0,Reference audit group,credit_score
+APP-00170,EU,38,57777,683,0.101,2.8,11289,Medium,0,0,0.6412,Approved,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00171,EU,56,59213,811,0.512,1.0,22978,Low,0,0,0.8127,Approved,0,Male,56+,0,Reference audit group,debt_to_income
+APP-00172,EU,35,42913,614,0.456,6.7,21976,Medium,1,0,0.1652,Declined,0,Male,26-35,0,Reference audit group,credit_score
+APP-00175,EU,30,53098,722,0.281,1.5,22064,Low,0,0,0.671,Approved,0,Male,26-35,0,Reference audit group,employment_length
+APP-00176,EU,55,69975,755,0.434,5.9,32765,Low,0,1,0.7156,Approved,0,Male,46-55,0,Reference audit group,income_instability_flag
+APP-00179,EU,56,63861,633,0.525,7.7,36385,Low,0,0,0.339,Declined,0,Male,56+,0,Reference audit group,debt_to_income
+APP-00180,EU,43,57985,690,0.406,6.0,30541,Very High,1,0,0.2891,Declined,0,Female,36-45,1,Protected audit group,postcode_risk_band
+APP-00181,EU,45,47602,801,0.302,5.2,12937,Medium,0,0,0.8524,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00186,EU,45,50052,678,0.254,0.8,16364,Very High,0,0,0.3638,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00187,EU,54,55336,686,0.207,6.7,25126,Medium,0,0,0.6092,Approved,0,Male,46-55,0,Reference audit group,postcode_risk_band
+APP-00189,EU,19,43936,663,0.341,3.1,26258,Medium,1,0,0.2782,Declined,1,Female,19-25,1,Protected audit group,thin_file_flag
+APP-00190,EU,48,98251,843,0.452,2.5,47840,Low,0,0,0.9071,Approved,0,Female,46-55,0,Reference audit group,debt_to_income
+APP-00193,EU,26,50781,772,0.172,1.7,18827,High,0,0,0.7603,Approved,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-00194,EU,45,48073,680,0.362,7.6,23049,Very High,0,1,0.3227,Declined,0,Female,36-45,1,Protected audit group,postcode_risk_band
+APP-00195,EU,44,43614,748,0.417,6.9,31308,Low,0,1,0.6368,Approved,0,Male,36-45,0,Reference audit group,income_instability_flag
+APP-00196,EU,28,66125,669,0.388,0.9,27912,Medium,0,1,0.3461,Declined,0,Female,26-35,0,Reference audit group,employment_length
+APP-00198,EU,19,41126,616,0.256,4.7,14979,Medium,1,0,0.2286,Declined,1,Female,19-25,0,Reference audit group,credit_score
+APP-00200,EU,29,58907,711,0.541,8.2,25427,High,0,0,0.4832,Declined,1,Female,26-35,0,Reference audit group,debt_to_income
+APP-00201,EU,55,96905,694,0.329,7.4,42004,Low,0,0,0.6939,Approved,0,Female,46-55,0,Reference audit group,credit_score
+APP-00202,EU,36,56631,597,0.435,6.0,20485,Low,1,1,0.1595,Declined,1,Female,36-45,0,Reference audit group,credit_score
+APP-00203,EU,47,45055,670,0.173,5.1,15064,Very High,0,0,0.4226,Declined,1,Male,46-55,0,Reference audit group,postcode_risk_band
+APP-00204,EU,52,37734,710,0.194,8.5,11646,Medium,1,0,0.5888,Approved,0,Male,46-55,0,Reference audit group,thin_file_flag
+APP-00205,EU,43,26213,647,0.437,3.5,12807,High,0,0,0.2045,Declined,1,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00206,EU,51,93313,777,0.332,8.4,32166,Very High,0,0,0.7826,Approved,0,Female,46-55,1,Protected audit group,postcode_risk_band
+APP-00207,EU,40,63864,710,0.306,7.8,22280,Low,0,0,0.7244,Approved,0,Male,36-45,0,Reference audit group,credit_score
+APP-00210,EU,19,23994,567,0.298,2.4,10025,Medium,0,0,0.1249,Declined,0,Female,19-25,0,Reference audit group,credit_score
+APP-00211,EU,24,57766,653,0.485,4.9,27529,High,1,1,0.1668,Declined,1,Male,19-25,1,Protected audit group,thin_file_flag
+APP-00213,EU,31,48130,598,0.267,1.2,28072,High,0,0,0.172,Declined,0,Male,26-35,1,Protected audit group,credit_score
+APP-00214,EU,43,31970,737,0.524,2.8,16352,Low,0,0,0.548,Declined,0,Male,36-45,0,Reference audit group,debt_to_income
+APP-00215,EU,49,42416,689,0.453,0.9,29339,High,0,1,0.2462,Declined,0,Female,46-55,1,Protected audit group,employment_length
+APP-00216,EU,19,65865,650,0.477,1.0,34568,Medium,0,0,0.292,Declined,0,Female,19-25,1,Protected audit group,employment_length
+APP-00217,EU,31,33681,671,0.283,4.3,14804,Low,1,1,0.3284,Declined,0,Female,26-35,0,Reference audit group,thin_file_flag
+APP-00220,EU,45,53137,763,0.297,3.9,26068,Medium,0,0,0.7506,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00221,EU,32,54280,688,0.353,9.9,23494,Very High,1,0,0.3361,Declined,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-00223,EU,31,44149,763,0.291,1.6,12690,Low,0,0,0.776,Approved,0,Female,26-35,0,Reference audit group,employment_length
+APP-00224,EU,34,27099,628,0.325,15.0,9746,Low,0,0,0.3629,Declined,0,Male,26-35,0,Reference audit group,credit_score
+APP-00228,EU,39,44861,661,0.363,6.2,17685,High,0,0,0.3615,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00230,EU,27,79790,712,0.371,1.4,40939,High,0,0,0.5074,Declined,0,Female,26-35,0,Reference audit group,postcode_risk_band
+APP-00232,EU,27,33098,672,0.201,3.8,11657,Medium,0,0,0.4839,Declined,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-00234,EU,49,24828,638,0.648,15.1,12934,Low,0,0,0.2246,Declined,1,Female,46-55,1,Protected audit group,debt_to_income
+APP-00235,EU,27,71213,670,0.374,0.7,26847,Medium,0,1,0.367,Declined,0,Female,26-35,1,Protected audit group,employment_length
+APP-00236,EU,52,21467,628,0.428,14.2,7808,Very High,1,0,0.1165,Declined,0,Male,46-55,1,Protected audit group,postcode_risk_band
+APP-00238,EU,38,39710,646,0.418,1.5,18077,Medium,0,1,0.2269,Declined,0,Female,36-45,1,Protected audit group,income_instability_flag
+APP-00239,EU,31,59552,684,0.343,3.2,21741,High,0,1,0.3807,Declined,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-00242,EU,44,66683,672,0.084,7.8,17258,Medium,0,0,0.6836,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00243,EU,39,77119,631,0.299,1.2,26216,Low,0,0,0.4111,Declined,1,Male,36-45,1,Protected audit group,credit_score
+APP-00244,EU,35,96329,757,0.647,1.5,44272,High,1,0,0.4402,Declined,0,Female,26-35,0,Reference audit group,debt_to_income
+APP-00245,EU,43,43178,709,0.444,2.1,20297,Low,0,1,0.4633,Declined,0,Male,36-45,0,Reference audit group,income_instability_flag
+APP-00246,EU,36,51101,618,0.345,1.7,23096,Medium,0,0,0.2545,Declined,1,Female,36-45,1,Protected audit group,credit_score
+APP-00250,EU,35,60176,657,0.393,3.9,31386,High,0,1,0.2681,Declined,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-00254,EU,29,44970,655,0.226,1.3,10278,Low,0,0,0.4864,Declined,0,Female,26-35,0,Reference audit group,employment_length
+APP-00258,EU,43,71803,629,0.391,3.0,36959,Medium,0,0,0.3027,Declined,1,Male,36-45,0,Reference audit group,credit_score
+APP-00259,EU,44,54603,613,0.388,3.6,25910,Low,0,0,0.2909,Declined,0,Female,36-45,0,Reference audit group,credit_score
+APP-00262,EU,19,58835,634,0.221,3.5,27309,Very High,0,1,0.2328,Declined,0,Male,19-25,1,Protected audit group,postcode_risk_band
+APP-00263,EU,38,29791,660,0.139,1.4,12021,Low,0,0,0.4786,Declined,0,Male,36-45,1,Protected audit group,employment_length
+APP-00264,EU,38,44128,696,0.396,6.2,21509,Low,0,0,0.563,Approved,0,Female,36-45,1,Protected audit group,debt_to_income
+APP-00266,EU,27,37229,647,0.411,0.8,25189,Low,0,1,0.2362,Declined,1,Female,26-35,1,Protected audit group,employment_length
+APP-00267,EU,35,42464,675,0.442,0.8,15416,Very High,1,0,0.1811,Declined,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-00268,EU,25,43768,670,0.27,2.9,11472,Low,0,1,0.4656,Declined,1,Male,19-25,0,Reference audit group,income_instability_flag
+APP-00270,EU,37,47396,685,0.394,3.3,23424,Low,0,0,0.4944,Declined,0,Male,36-45,0,Reference audit group,debt_to_income
+APP-00273,EU,38,46264,788,0.26,5.7,14510,Low,0,0,0.8672,Approved,0,Female,36-45,0,Reference audit group,credit_score
+APP-00278,EU,43,27470,600,0.431,1.3,12492,Medium,0,0,0.1417,Declined,1,Male,36-45,1,Protected audit group,credit_score
+APP-00279,EU,43,49429,675,0.216,1.0,18297,Low,0,0,0.545,Declined,0,Male,36-45,0,Reference audit group,employment_length
+APP-00284,EU,37,56130,667,0.298,4.0,13223,High,0,0,0.4306,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00286,EU,22,23114,706,0.412,2.1,11689,Low,0,1,0.396,Declined,0,Female,19-25,0,Reference audit group,income_instability_flag
+APP-00289,EU,44,22573,758,0.335,0.7,9662,High,0,1,0.4799,Declined,0,Female,36-45,0,Reference audit group,employment_length
+APP-00293,EU,36,39034,717,0.066,4.6,13765,Very High,0,0,0.6095,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00295,EU,40,55110,644,0.355,7.5,21198,Medium,0,0,0.4129,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-00296,EU,26,51851,676,0.175,2.4,26033,Medium,1,0,0.4163,Declined,0,Female,26-35,0,Reference audit group,thin_file_flag
+APP-00298,EU,47,52566,648,0.277,12.1,21306,Low,0,0,0.52,Declined,0,Male,46-55,0,Reference audit group,credit_score
+APP-00299,EU,27,31384,709,0.3,9.6,12103,High,0,0,0.5387,Declined,0,Female,26-35,0,Reference audit group,postcode_risk_band
+APP-00303,EU,44,64120,651,0.426,5.2,28144,Medium,0,1,0.3216,Declined,0,Male,36-45,1,Protected audit group,income_instability_flag
+APP-00304,EU,41,47063,649,0.364,7.5,23749,Low,0,0,0.4442,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-00305,EU,38,48281,668,0.167,2.2,16137,Low,0,0,0.5659,Approved,0,Male,36-45,0,Reference audit group,credit_score
+APP-00306,EU,36,36813,690,0.365,4.7,14385,Low,1,0,0.4278,Declined,0,Male,36-45,1,Protected audit group,thin_file_flag
+APP-00307,EU,37,55113,582,0.33,3.2,22503,High,1,1,0.0897,Declined,1,Male,36-45,0,Reference audit group,credit_score
+APP-00308,EU,31,61747,654,0.438,1.4,28924,Medium,0,0,0.3265,Declined,0,Male,26-35,1,Protected audit group,employment_length
+APP-00309,EU,51,98793,760,0.406,4.7,59509,Medium,1,0,0.6617,Approved,0,Male,46-55,1,Protected audit group,thin_file_flag
+APP-00310,EU,50,42655,629,0.275,7.0,21516,Very High,0,0,0.2499,Declined,1,Female,46-55,0,Reference audit group,postcode_risk_band
+APP-00312,EU,40,22098,664,0.334,3.2,13947,Medium,0,0,0.304,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00314,EU,53,46227,739,0.261,4.8,18994,Low,0,0,0.7514,Approved,0,Male,46-55,0,Reference audit group,credit_score
+APP-00315,EU,45,34161,700,0.216,2.1,11593,High,0,1,0.4257,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00316,EU,55,18000,540,0.175,1.4,5148,Low,1,1,0.0684,Declined,1,Female,46-55,0,Reference audit group,credit_score
+APP-00318,EU,23,34229,614,0.428,5.4,19600,Medium,0,0,0.2059,Declined,0,Male,19-25,1,Protected audit group,credit_score
+APP-00319,EU,40,64342,686,0.057,0.9,32788,Medium,0,0,0.6167,Approved,0,Male,36-45,1,Protected audit group,employment_length
+APP-00320,EU,25,38461,702,0.49,2.1,18853,High,1,0,0.2588,Declined,0,Female,19-25,1,Protected audit group,thin_file_flag
+APP-00323,EU,36,83117,718,0.114,6.5,39332,Low,0,0,0.8104,Approved,0,Female,36-45,0,Reference audit group,credit_score
+APP-00324,EU,42,63191,686,0.444,4.7,30471,Very High,0,0,0.3497,Declined,1,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00325,EU,34,53382,590,0.201,1.0,12971,Low,1,0,0.223,Declined,0,Female,26-35,1,Protected audit group,credit_score
+APP-00326,EU,28,59955,690,0.306,5.3,30301,Low,0,0,0.6081,Approved,0,Female,26-35,0,Reference audit group,credit_score
+APP-00329,EU,39,51823,814,0.427,3.8,25020,Medium,0,0,0.8184,Approved,0,Male,36-45,1,Protected audit group,debt_to_income
+APP-00332,EU,46,77755,724,0.344,6.3,31138,Low,0,0,0.7411,Approved,0,Male,46-55,0,Reference audit group,credit_score
+APP-00333,EU,31,81006,708,0.134,8.5,28860,Low,0,0,0.8044,Approved,0,Female,26-35,0,Reference audit group,credit_score
+APP-00334,EU,47,41261,670,0.42,4.1,15775,Very High,0,1,0.2309,Declined,0,Male,46-55,1,Protected audit group,postcode_risk_band
+APP-00340,EU,37,43483,581,0.615,1.9,25837,Medium,1,0,0.0626,Declined,0,Female,36-45,1,Protected audit group,credit_score
+APP-00343,EU,47,57242,749,0.323,2.9,17247,Medium,0,1,0.6674,Approved,1,Male,46-55,0,Reference audit group,income_instability_flag
+APP-00344,EU,52,36846,588,0.292,11.4,19298,High,0,0,0.1868,Declined,0,Male,46-55,1,Protected audit group,credit_score
+APP-00345,EU,56,54227,687,0.389,2.9,28551,Low,0,1,0.4464,Declined,1,Female,56+,0,Reference audit group,income_instability_flag
+APP-00346,EU,30,112864,691,0.466,7.3,55857,Medium,0,1,0.5119,Declined,1,Female,26-35,1,Protected audit group,income_instability_flag
+APP-00348,EU,45,42825,652,0.349,0.4,15843,Very High,0,0,0.2267,Declined,0,Male,36-45,1,Protected audit group,employment_length
+APP-00349,EU,51,35581,615,0.246,3.7,11431,Very High,0,0,0.2003,Declined,0,Female,46-55,0,Reference audit group,postcode_risk_band
+APP-00353,EU,41,50732,708,0.226,3.2,23107,Very High,0,0,0.4922,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00356,EU,25,42182,521,0.43,7.9,15514,Medium,0,0,0.0945,Declined,0,Female,19-25,1,Protected audit group,credit_score
+APP-00357,EU,32,49299,675,0.193,2.7,16233,Low,0,0,0.5854,Approved,0,Female,26-35,0,Reference audit group,credit_score
+APP-00359,EU,31,55628,693,0.27,4.0,20818,Low,0,0,0.6286,Approved,0,Female,26-35,0,Reference audit group,credit_score
+APP-00362,EU,41,41837,572,0.246,1.8,17469,Low,1,0,0.1477,Declined,0,Female,36-45,0,Reference audit group,credit_score
+APP-00363,EU,19,58052,618,0.212,3.6,19159,Medium,0,0,0.3629,Declined,0,Female,19-25,0,Reference audit group,credit_score
+APP-00367,EU,30,31082,541,0.448,4.3,16249,Medium,1,0,0.0535,Declined,0,Female,26-35,1,Protected audit group,credit_score
+APP-00370,EU,32,47733,695,0.188,4.1,24065,Low,0,0,0.6426,Approved,0,Male,26-35,0,Reference audit group,credit_score
+APP-00373,EU,25,26983,701,0.362,7.2,10379,Low,1,0,0.4664,Declined,0,Male,19-25,0,Reference audit group,thin_file_flag
+APP-00375,EU,50,55458,700,0.507,4.1,30035,Medium,0,0,0.4527,Declined,0,Female,46-55,0,Reference audit group,debt_to_income
+APP-00376,EU,58,33682,694,0.301,3.9,7721,Medium,0,0,0.5268,Declined,0,Female,56+,1,Protected audit group,postcode_risk_band
+APP-00379,EU,38,51017,608,0.503,2.0,21273,High,0,1,0.1176,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-00384,EU,40,91291,574,0.395,6.8,49003,High,1,0,0.1233,Declined,0,Female,36-45,1,Protected audit group,credit_score
+APP-00385,EU,38,73680,731,0.321,6.2,27942,Medium,0,0,0.7226,Approved,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00390,EU,23,65128,534,0.366,5.3,43434,Very High,0,0,0.071,Declined,1,Female,19-25,0,Reference audit group,credit_score
+APP-00392,EU,49,55940,747,0.443,4.4,30758,Very High,0,0,0.5238,Declined,0,Female,46-55,0,Reference audit group,postcode_risk_band
+APP-00395,EU,35,37697,703,0.178,9.1,8730,Low,0,0,0.7275,Approved,0,Male,26-35,0,Reference audit group,credit_score
+APP-00397,EU,44,42264,592,0.378,3.1,15580,Very High,0,1,0.0993,Declined,0,Female,36-45,0,Reference audit group,credit_score
+APP-00398,EU,41,46068,586,0.14,4.4,18966,Low,0,0,0.3249,Declined,1,Female,36-45,0,Reference audit group,credit_score
+APP-00401,EU,31,54459,589,0.317,1.6,25529,Low,0,0,0.2361,Declined,0,Female,26-35,1,Protected audit group,credit_score
+APP-00402,EU,27,40376,657,0.257,3.8,12333,Low,1,0,0.385,Declined,0,Male,26-35,0,Reference audit group,thin_file_flag
+APP-00403,EU,23,35689,608,0.375,4.4,13788,Medium,1,0,0.1587,Declined,0,Female,19-25,1,Protected audit group,credit_score
+APP-00405,EU,40,47493,651,0.515,7.3,31369,Medium,1,1,0.1822,Declined,1,Female,36-45,1,Protected audit group,thin_file_flag
+APP-00408,EU,30,54836,656,0.536,5.1,34156,Medium,0,0,0.301,Declined,0,Male,26-35,1,Protected audit group,debt_to_income
+APP-00411,EU,21,55045,683,0.405,10.0,25459,Medium,0,1,0.4506,Declined,0,Male,19-25,0,Reference audit group,income_instability_flag
+APP-00412,EU,34,23573,707,0.287,1.8,12268,Low,0,0,0.5219,Declined,0,Female,26-35,0,Reference audit group,employment_length
+APP-00413,EU,42,101001,850,0.318,9.6,30363,Low,0,0,0.956,Approved,0,Female,36-45,0,Reference audit group,credit_score
+APP-00422,EU,33,39344,653,0.501,5.3,16055,High,1,0,0.1819,Declined,0,Male,26-35,1,Protected audit group,thin_file_flag
+APP-00423,EU,44,23454,582,0.156,5.4,8201,Low,0,0,0.2627,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-00426,EU,39,41085,718,0.336,3.8,24959,Medium,0,0,0.5555,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00428,EU,19,36877,715,0.45,5.5,19335,Low,0,0,0.5637,Approved,0,Male,19-25,0,Reference audit group,debt_to_income
+APP-00429,EU,25,27052,686,0.299,3.1,8730,High,0,0,0.3886,Declined,0,Female,19-25,1,Protected audit group,postcode_risk_band
+APP-00431,EU,53,53992,597,0.384,2.5,22712,Very High,1,1,0.0742,Declined,1,Female,46-55,1,Protected audit group,credit_score
+APP-00433,EU,37,142481,774,0.258,13.7,49171,Medium,0,0,0.8896,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00435,EU,45,38091,650,0.384,3.7,19041,High,0,0,0.2623,Declined,0,Female,36-45,1,Protected audit group,postcode_risk_band
+APP-00438,EU,21,28050,662,0.348,2.1,10301,Low,0,0,0.3858,Declined,0,Male,19-25,1,Protected audit group,credit_score
+APP-00439,EU,42,76284,678,0.238,2.4,34082,Very High,0,0,0.4213,Declined,0,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-00440,EU,48,63363,720,0.374,0.4,25287,Medium,0,0,0.5742,Approved,0,Male,46-55,0,Reference audit group,employment_length
+APP-00442,EU,56,43153,703,0.355,9.2,15140,Medium,0,0,0.5944,Approved,0,Male,56+,0,Reference audit group,postcode_risk_band
+APP-00445,EU,42,36047,573,0.268,2.7,17531,High,1,0,0.0892,Declined,1,Female,36-45,1,Protected audit group,credit_score
+APP-00446,EU,39,63449,715,0.284,5.8,24615,Medium,0,0,0.6736,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00448,EU,39,40656,633,0.308,2.4,12378,Very High,0,0,0.2187,Declined,0,Female,36-45,1,Protected audit group,postcode_risk_band
+APP-00452,EU,37,31306,668,0.448,5.7,15105,High,0,1,0.2417,Declined,0,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-00457,EU,24,62674,709,0.109,4.7,13130,Low,0,0,0.7804,Approved,0,Female,19-25,0,Reference audit group,credit_score
+APP-00458,EU,25,43979,586,0.4,1.3,20511,Low,1,1,0.1024,Declined,0,Female,19-25,0,Reference audit group,credit_score
+APP-00460,EU,37,50201,636,0.466,7.5,22486,Very High,0,0,0.2189,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00462,EU,22,70754,623,0.243,6.3,33388,Low,1,0,0.3532,Declined,0,Female,19-25,0,Reference audit group,thin_file_flag
+APP-00465,EU,60,36991,651,0.392,6.1,9347,Low,0,0,0.4267,Declined,0,Male,56+,0,Reference audit group,credit_score
+APP-00467,EU,19,55247,657,0.401,2.1,22915,Low,0,0,0.4094,Declined,0,Male,19-25,1,Protected audit group,debt_to_income
+APP-00469,EU,44,90650,684,0.311,0.5,33559,Low,0,0,0.5862,Approved,0,Male,36-45,0,Reference audit group,employment_length
+APP-00472,EU,30,40981,594,0.433,1.5,15519,High,1,0,0.0885,Declined,0,Female,26-35,1,Protected audit group,credit_score
+APP-00474,EU,31,27138,690,0.267,3.5,7073,High,0,0,0.4323,Declined,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-00476,EU,24,47684,599,0.417,2.8,16952,High,1,0,0.1113,Declined,1,Female,19-25,0,Reference audit group,credit_score
+APP-00477,EU,39,76136,760,0.396,7.4,24472,High,0,0,0.74,Approved,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00479,EU,24,92085,710,0.409,3.8,55474,Low,0,1,0.5738,Approved,0,Female,19-25,0,Reference audit group,income_instability_flag
+APP-00484,EU,50,63693,694,0.576,3.9,30332,Medium,0,0,0.4191,Declined,1,Female,46-55,0,Reference audit group,debt_to_income
+APP-00487,EU,37,30524,716,0.43,2.3,14305,Medium,0,0,0.4657,Declined,0,Female,36-45,0,Reference audit group,debt_to_income
+APP-00488,EU,29,43788,487,0.152,2.4,18529,High,1,1,0.0328,Declined,1,Male,26-35,1,Protected audit group,credit_score
+APP-00489,EU,48,46876,754,0.477,2.6,29920,Low,0,0,0.6476,Approved,0,Male,46-55,0,Reference audit group,debt_to_income
+APP-00490,EU,59,69307,667,0.373,1.6,27155,Low,0,0,0.4788,Declined,0,Male,56+,0,Reference audit group,employment_length
+APP-00491,EU,39,37538,698,0.338,10.0,14929,Medium,1,0,0.4602,Declined,1,Male,36-45,0,Reference audit group,thin_file_flag
+APP-00493,EU,45,35138,696,0.245,2.0,12796,Very High,0,0,0.3985,Declined,0,Female,36-45,1,Protected audit group,postcode_risk_band
+APP-00494,EU,32,91224,679,0.232,11.0,44972,High,1,0,0.4727,Declined,1,Female,26-35,1,Protected audit group,thin_file_flag
+APP-00495,EU,34,28811,707,0.448,4.1,17289,High,0,0,0.3636,Declined,0,Female,26-35,1,Protected audit group,postcode_risk_band
+APP-00496,EU,31,60381,608,0.419,2.1,26534,Medium,1,0,0.157,Declined,0,Female,26-35,0,Reference audit group,credit_score
+APP-00499,EU,33,35620,744,0.512,7.4,20907,Medium,0,0,0.5867,Approved,0,Female,26-35,0,Reference audit group,debt_to_income
+APP-00503,EU,39,73982,632,0.204,3.8,20392,High,1,0,0.2921,Declined,0,Female,36-45,1,Protected audit group,thin_file_flag
+APP-00504,EU,50,30138,708,0.567,7.5,11687,High,0,1,0.3283,Declined,1,Male,46-55,0,Reference audit group,debt_to_income
+APP-00506,EU,36,37953,690,0.384,5.3,14434,Low,0,0,0.5355,Declined,0,Male,36-45,0,Reference audit group,debt_to_income
+APP-00507,EU,45,43787,662,0.387,2.3,19300,High,0,0,0.2977,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00508,EU,29,75474,732,0.51,0.5,36454,High,0,0,0.4877,Declined,1,Male,26-35,1,Protected audit group,employment_length
+APP-00509,EU,44,78089,718,0.232,2.6,38364,Medium,0,1,0.6181,Approved,0,Female,36-45,0,Reference audit group,income_instability_flag
+APP-00513,EU,41,37721,639,0.241,1.0,11939,Very High,0,0,0.2371,Declined,0,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-00514,EU,34,42618,728,0.213,2.0,14235,Medium,0,0,0.6665,Approved,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-00516,EU,27,54593,678,0.241,1.0,19898,Low,0,0,0.5539,Declined,1,Male,26-35,0,Reference audit group,employment_length
+APP-00521,EU,37,45192,695,0.346,4.0,8701,Medium,0,0,0.5463,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00522,EU,31,38750,732,0.142,12.0,19389,Medium,0,0,0.7477,Approved,0,Female,26-35,0,Reference audit group,postcode_risk_band
+APP-00523,EU,46,75843,729,0.171,8.1,37821,Low,0,0,0.8188,Approved,0,Male,46-55,0,Reference audit group,credit_score
+APP-00525,EU,40,68527,711,0.388,2.9,37622,High,0,0,0.4934,Declined,1,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00526,EU,33,69126,587,0.274,13.1,24311,Very High,0,0,0.2135,Declined,0,Male,26-35,1,Protected audit group,credit_score
+APP-00527,EU,32,73516,572,0.32,3.0,36185,Low,1,0,0.1636,Declined,1,Female,26-35,0,Reference audit group,credit_score
+APP-00529,EU,32,64504,732,0.421,4.2,36672,Medium,0,0,0.618,Approved,0,Female,26-35,0,Reference audit group,debt_to_income
+APP-00531,EU,40,54250,703,0.229,4.2,25064,Medium,0,0,0.6169,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00535,EU,30,48772,709,0.198,6.8,22209,Low,0,0,0.7194,Approved,0,Female,26-35,0,Reference audit group,credit_score
+APP-00536,EU,37,50672,785,0.469,11.3,22781,Low,0,1,0.7748,Approved,0,Male,36-45,0,Reference audit group,income_instability_flag
+APP-00543,EU,51,34964,695,0.373,1.3,18686,High,1,0,0.2663,Declined,0,Female,46-55,1,Protected audit group,thin_file_flag
+APP-00546,EU,39,60811,652,0.394,6.4,34636,Very High,0,1,0.2316,Declined,0,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-00548,EU,30,118318,707,0.417,3.0,54453,Medium,1,0,0.5004,Declined,0,Female,26-35,0,Reference audit group,thin_file_flag
+APP-00550,EU,36,27712,573,0.335,2.4,12806,High,0,0,0.103,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-00553,EU,54,44129,687,0.424,6.1,23767,Low,0,0,0.5094,Declined,0,Male,46-55,0,Reference audit group,debt_to_income
+APP-00557,EU,48,53458,667,0.192,8.9,32529,Very High,1,0,0.3241,Declined,0,Male,46-55,0,Reference audit group,postcode_risk_band
+APP-00558,EU,35,32811,700,0.304,3.0,8950,High,0,0,0.459,Declined,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-00559,EU,49,21016,583,0.435,2.2,5981,Low,0,0,0.1429,Declined,0,Female,46-55,0,Reference audit group,credit_score
+APP-00560,EU,29,42821,685,0.349,7.8,23964,Medium,1,0,0.4003,Declined,0,Male,26-35,0,Reference audit group,thin_file_flag
+APP-00563,EU,26,30356,634,0.465,7.0,14037,Low,0,0,0.3017,Declined,0,Female,26-35,0,Reference audit group,credit_score
+APP-00565,EU,25,46281,658,0.389,13.9,21517,Very High,0,1,0.2531,Declined,1,Male,19-25,1,Protected audit group,postcode_risk_band
+APP-00567,EU,30,21967,643,0.436,1.5,11022,Very High,0,1,0.1093,Declined,0,Female,26-35,1,Protected audit group,postcode_risk_band
+APP-00568,EU,54,46431,576,0.321,4.7,16061,High,1,1,0.088,Declined,1,Female,46-55,1,Protected audit group,credit_score
+APP-00571,EU,32,50251,629,0.201,7.7,27646,High,0,0,0.3502,Declined,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-00573,EU,26,19239,664,0.507,6.3,9627,High,0,0,0.2196,Declined,0,Female,26-35,1,Protected audit group,debt_to_income
+APP-00575,EU,19,48878,634,0.362,5.9,16367,Very High,0,1,0.2034,Declined,1,Male,19-25,1,Protected audit group,postcode_risk_band
+APP-00577,EU,19,81969,688,0.175,6.3,29452,Low,0,0,0.7247,Approved,1,Female,19-25,0,Reference audit group,credit_score
+APP-00578,EU,42,65231,679,0.267,2.3,29271,Low,0,0,0.5691,Approved,0,Male,36-45,0,Reference audit group,credit_score
+APP-00579,EU,21,54514,627,0.224,2.1,34433,High,1,1,0.1568,Declined,0,Female,19-25,0,Reference audit group,thin_file_flag
+APP-00580,EU,39,59090,728,0.366,7.0,23290,Very High,0,0,0.5642,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00581,EU,44,100757,622,0.509,3.2,31850,Very High,1,0,0.1397,Declined,0,Female,36-45,1,Protected audit group,postcode_risk_band
+APP-00582,EU,46,41593,732,0.215,3.8,16932,Medium,0,0,0.6874,Approved,0,Male,46-55,0,Reference audit group,postcode_risk_band
+APP-00586,EU,43,68805,631,0.414,6.1,34166,Medium,0,0,0.3332,Declined,0,Female,36-45,0,Reference audit group,credit_score
+APP-00590,EU,42,84862,554,0.568,2.7,43029,Medium,1,0,0.0707,Declined,1,Female,36-45,0,Reference audit group,credit_score
+APP-00598,EU,43,46391,688,0.441,7.6,28743,Medium,0,0,0.4635,Declined,0,Female,36-45,0,Reference audit group,debt_to_income
+APP-00599,EU,22,19208,669,0.529,4.9,11933,High,0,1,0.1619,Declined,1,Male,19-25,1,Protected audit group,debt_to_income
+APP-00600,EU,40,51838,610,0.624,5.2,34026,Medium,0,0,0.156,Declined,0,Male,36-45,1,Protected audit group,debt_to_income
+APP-00601,EU,50,55465,673,0.13,7.9,16381,Low,0,0,0.6919,Approved,0,Male,46-55,0,Reference audit group,credit_score
+APP-00603,EU,22,37337,614,0.305,2.7,17850,Medium,0,0,0.2412,Declined,0,Male,19-25,1,Protected audit group,credit_score
+APP-00605,EU,19,43660,686,0.293,1.8,20201,High,1,0,0.3105,Declined,0,Male,19-25,1,Protected audit group,thin_file_flag
+APP-00606,EU,34,87091,619,0.481,5.2,26707,High,1,0,0.1809,Declined,0,Female,26-35,1,Protected audit group,credit_score
+APP-00608,EU,35,49849,763,0.29,7.4,19141,Medium,0,0,0.7928,Approved,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-00609,EU,58,29519,578,0.319,6.7,14855,Low,1,0,0.1465,Declined,1,Female,56+,1,Protected audit group,credit_score
+APP-00610,EU,22,42561,643,0.316,3.0,20487,High,0,0,0.2761,Declined,1,Female,19-25,1,Protected audit group,postcode_risk_band
+APP-00613,EU,31,54695,598,0.497,1.9,30728,High,0,1,0.1001,Declined,0,Male,26-35,1,Protected audit group,credit_score
+APP-00614,EU,43,63387,693,0.41,2.2,28941,Medium,0,1,0.4193,Declined,1,Male,36-45,1,Protected audit group,income_instability_flag
+APP-00615,EU,49,57479,759,0.241,7.4,26238,Low,0,0,0.8366,Approved,0,Female,46-55,0,Reference audit group,credit_score
+APP-00618,EU,38,64797,719,0.322,4.3,34554,Low,0,0,0.6816,Approved,0,Female,36-45,0,Reference audit group,credit_score
+APP-00619,EU,30,25537,688,0.516,10.4,12459,Medium,0,0,0.3836,Declined,0,Female,26-35,0,Reference audit group,debt_to_income
+APP-00620,EU,44,81993,682,0.268,1.3,33844,Very High,0,0,0.4172,Declined,1,Female,36-45,1,Protected audit group,postcode_risk_band
+APP-00622,EU,36,45451,687,0.256,3.1,18520,Medium,0,0,0.5237,Declined,1,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00623,EU,51,46231,639,0.183,12.7,19715,High,0,0,0.4027,Declined,0,Male,46-55,0,Reference audit group,postcode_risk_band
+APP-00627,EU,36,38567,628,0.412,4.1,19492,Medium,0,1,0.2049,Declined,0,Male,36-45,1,Protected audit group,credit_score
+APP-00629,EU,52,45669,552,0.407,5.5,18472,Medium,0,0,0.1289,Declined,1,Female,46-55,0,Reference audit group,credit_score
+APP-00630,EU,35,49401,663,0.426,6.9,16627,Low,0,1,0.4185,Declined,0,Male,26-35,1,Protected audit group,income_instability_flag
+APP-00632,EU,29,50758,685,0.407,5.8,20154,Low,1,1,0.3787,Declined,0,Female,26-35,0,Reference audit group,thin_file_flag
+APP-00634,EU,47,20798,570,0.365,4.9,10951,Medium,1,1,0.0626,Declined,1,Female,46-55,0,Reference audit group,credit_score
+APP-00635,EU,24,88632,701,0.449,4.8,47589,High,1,1,0.3247,Declined,0,Female,19-25,0,Reference audit group,thin_file_flag
+APP-00637,EU,31,33368,555,0.255,3.0,11687,Medium,1,0,0.0981,Declined,0,Female,26-35,1,Protected audit group,credit_score
+APP-00641,EU,19,34751,662,0.25,3.9,19358,Medium,0,0,0.4028,Declined,1,Female,19-25,1,Protected audit group,postcode_risk_band
+APP-00643,EU,51,47781,679,0.093,2.3,23229,Low,0,0,0.6182,Approved,0,Male,46-55,0,Reference audit group,credit_score
+APP-00644,EU,31,62997,578,0.477,8.3,37542,Very High,0,0,0.1156,Declined,0,Male,26-35,0,Reference audit group,credit_score
+APP-00646,EU,34,49919,630,0.408,7.8,24676,Low,1,0,0.28,Declined,0,Male,26-35,0,Reference audit group,thin_file_flag
+APP-00647,EU,32,81701,658,0.563,1.2,33287,Medium,0,0,0.3138,Declined,1,Female,26-35,1,Protected audit group,debt_to_income
+APP-00650,EU,31,64537,683,0.106,6.9,14873,Low,0,0,0.7399,Approved,0,Female,26-35,1,Protected audit group,credit_score
+APP-00651,EU,22,96634,728,0.447,4.6,37758,Low,0,0,0.7108,Approved,0,Female,19-25,0,Reference audit group,debt_to_income
+APP-00653,EU,27,95485,731,0.334,1.4,47130,High,0,0,0.6121,Approved,0,Female,26-35,1,Protected audit group,postcode_risk_band
+APP-00654,EU,30,33863,603,0.54,0.0,19450,Medium,1,0,0.079,Declined,0,Female,26-35,1,Protected audit group,employment_length
+APP-00656,EU,27,68535,676,0.406,6.2,45727,High,0,0,0.3955,Declined,0,Female,26-35,1,Protected audit group,postcode_risk_band
+APP-00657,EU,48,82200,704,0.499,3.2,48143,Medium,0,1,0.4337,Declined,1,Male,46-55,1,Protected audit group,debt_to_income
+APP-00659,EU,32,42150,612,0.582,12.4,23384,High,1,0,0.1059,Declined,0,Male,26-35,1,Protected audit group,debt_to_income
+APP-00660,EU,48,85875,702,0.372,2.8,41010,Low,0,0,0.6232,Approved,0,Male,46-55,0,Reference audit group,debt_to_income
+APP-00662,EU,36,48427,679,0.283,4.4,19183,Medium,0,0,0.5092,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00663,EU,21,35927,636,0.301,6.5,15133,Medium,1,0,0.262,Declined,0,Female,19-25,1,Protected audit group,thin_file_flag
+APP-00668,EU,33,75025,654,0.442,1.8,46529,Low,0,0,0.3797,Declined,0,Female,26-35,0,Reference audit group,debt_to_income
+APP-00669,EU,39,95588,759,0.296,4.8,35507,Low,0,0,0.8393,Approved,0,Female,36-45,0,Reference audit group,credit_score
+APP-00670,EU,30,31216,704,0.46,0.1,17943,High,0,0,0.3111,Declined,0,Female,26-35,1,Protected audit group,employment_length
+APP-00671,EU,36,61027,634,0.496,5.6,27255,Low,0,0,0.3412,Declined,0,Male,36-45,0,Reference audit group,debt_to_income
+APP-00673,EU,33,41709,677,0.391,2.3,19795,Low,0,0,0.4439,Declined,0,Female,26-35,0,Reference audit group,debt_to_income
+APP-00677,EU,27,25217,542,0.324,6.5,10318,High,0,0,0.0873,Declined,1,Female,26-35,1,Protected audit group,credit_score
+APP-00678,EU,49,62384,687,0.176,9.2,27078,High,0,0,0.5986,Approved,0,Male,46-55,1,Protected audit group,postcode_risk_band
+APP-00682,EU,47,109571,747,0.235,5.0,29777,Low,0,0,0.8518,Approved,0,Male,46-55,0,Reference audit group,credit_score
+APP-00687,EU,41,46890,724,0.542,3.9,24038,Low,0,0,0.5526,Declined,0,Female,36-45,1,Protected audit group,debt_to_income
+APP-00688,EU,48,71199,676,0.339,3.5,26228,Low,0,1,0.4971,Declined,0,Male,46-55,0,Reference audit group,income_instability_flag
+APP-00689,EU,42,37620,693,0.133,5.7,17542,High,0,0,0.5493,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00691,EU,38,30909,728,0.366,3.7,13845,Very High,0,0,0.4388,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00693,EU,43,24890,695,0.366,9.8,7449,Medium,0,0,0.5083,Declined,0,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-00697,EU,50,55388,764,0.229,4.4,21861,Medium,0,0,0.7958,Approved,0,Female,46-55,0,Reference audit group,postcode_risk_band
+APP-00698,EU,38,60020,707,0.569,0.5,27000,Medium,0,0,0.4171,Declined,0,Male,36-45,0,Reference audit group,debt_to_income
+APP-00701,EU,46,82750,850,0.325,3.3,19124,Low,0,0,0.9402,Approved,0,Male,46-55,0,Reference audit group,credit_score
+APP-00704,EU,28,68046,643,0.295,3.8,19170,Low,0,1,0.421,Declined,0,Male,26-35,0,Reference audit group,income_instability_flag
+APP-00705,EU,32,52452,543,0.385,5.6,19688,Low,1,1,0.087,Declined,1,Male,26-35,1,Protected audit group,credit_score
+APP-00706,EU,53,72026,753,0.295,16.8,30609,Low,0,0,0.8308,Approved,0,Male,46-55,0,Reference audit group,credit_score
+APP-00708,EU,37,62051,793,0.248,7.9,20148,High,0,0,0.8502,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00709,EU,22,100467,668,0.375,1.6,58692,Medium,0,0,0.4403,Declined,0,Male,19-25,0,Reference audit group,employment_length
+APP-00712,EU,38,37864,714,0.311,2.2,17782,Very High,0,0,0.4198,Declined,0,Female,36-45,1,Protected audit group,postcode_risk_band
+APP-00713,EU,37,62379,770,0.35,3.7,34592,Medium,0,0,0.752,Approved,0,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-00714,EU,27,53569,686,0.275,2.7,24638,Low,0,0,0.5703,Approved,0,Male,26-35,0,Reference audit group,credit_score
+APP-00717,EU,19,51649,614,0.288,2.8,27292,Medium,0,1,0.2248,Declined,0,Male,19-25,1,Protected audit group,credit_score
+APP-00719,EU,46,125299,643,0.312,6.9,38178,Low,1,0,0.4769,Declined,0,Female,46-55,0,Reference audit group,thin_file_flag
+APP-00720,EU,46,32341,582,0.401,7.6,12175,High,1,0,0.1001,Declined,0,Female,46-55,1,Protected audit group,credit_score
+APP-00721,EU,43,63364,618,0.211,0.7,20515,High,0,0,0.2815,Declined,0,Female,36-45,0,Reference audit group,employment_length
+APP-00722,EU,19,35313,563,0.335,2.2,16551,Very High,1,0,0.0539,Declined,1,Male,19-25,0,Reference audit group,credit_score
+APP-00723,EU,37,34578,594,0.488,3.2,19033,High,1,1,0.0584,Declined,0,Female,36-45,1,Protected audit group,credit_score
+APP-00724,EU,56,46194,765,0.439,2.5,25304,Medium,0,0,0.6587,Approved,0,Male,56+,0,Reference audit group,debt_to_income
+APP-00725,EU,29,41707,679,0.411,4.3,23584,High,0,0,0.34,Declined,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-00727,EU,39,39189,650,0.275,5.4,9030,Medium,0,0,0.4298,Declined,1,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00730,EU,33,50085,644,0.178,8.1,12588,Medium,0,0,0.5203,Declined,0,Male,26-35,0,Reference audit group,credit_score
+APP-00731,EU,36,36826,687,0.426,2.9,20246,Medium,0,0,0.3893,Declined,0,Female,36-45,0,Reference audit group,debt_to_income
+APP-00733,EU,25,44816,704,0.264,7.0,14627,Medium,0,1,0.5776,Approved,0,Male,19-25,1,Protected audit group,income_instability_flag
+APP-00738,EU,33,69340,712,0.499,1.0,33658,Low,0,0,0.5428,Declined,0,Female,26-35,0,Reference audit group,debt_to_income
+APP-00739,EU,30,36420,778,0.404,3.4,23625,Low,0,0,0.7332,Approved,0,Female,26-35,0,Reference audit group,debt_to_income
+APP-00741,EU,37,45605,659,0.45,3.5,27497,Medium,0,0,0.3142,Declined,0,Female,36-45,1,Protected audit group,debt_to_income
+APP-00742,EU,51,49568,721,0.452,9.0,35594,High,0,0,0.5028,Declined,0,Male,46-55,1,Protected audit group,postcode_risk_band
+APP-00748,EU,32,45254,690,0.351,3.9,27192,Very High,0,0,0.3466,Declined,0,Female,26-35,0,Reference audit group,postcode_risk_band
+APP-00749,EU,42,32643,603,0.291,5.8,10255,Medium,0,0,0.2573,Declined,0,Male,36-45,1,Protected audit group,credit_score
+APP-00750,EU,30,63483,638,0.391,3.5,25208,Medium,0,0,0.338,Declined,1,Male,26-35,0,Reference audit group,credit_score
+APP-00751,EU,51,23100,547,0.47,11.4,8433,Low,0,0,0.1154,Declined,0,Female,46-55,0,Reference audit group,credit_score
+APP-00752,EU,43,36179,647,0.28,12.2,15583,Low,1,0,0.3676,Declined,1,Female,36-45,0,Reference audit group,thin_file_flag
+APP-00754,EU,52,31497,594,0.482,1.7,20786,High,0,0,0.0924,Declined,0,Male,46-55,1,Protected audit group,credit_score
+APP-00755,EU,42,143621,790,0.473,8.7,72983,Medium,0,0,0.8532,Approved,0,Female,36-45,0,Reference audit group,debt_to_income
+APP-00756,EU,29,77088,695,0.558,12.5,46035,Medium,0,1,0.4295,Declined,0,Male,26-35,1,Protected audit group,debt_to_income
+APP-00758,EU,32,27164,590,0.299,5.0,8072,Very High,1,0,0.092,Declined,0,Male,26-35,1,Protected audit group,credit_score
+APP-00765,EU,31,31233,676,0.362,1.6,11123,High,0,0,0.3191,Declined,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-00772,EU,34,78955,646,0.437,1.9,41488,High,0,0,0.2719,Declined,0,Female,26-35,0,Reference audit group,postcode_risk_band
+APP-00774,EU,26,51483,654,0.226,7.3,13890,High,0,1,0.3938,Declined,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-00775,EU,49,34948,652,0.454,9.9,14454,Medium,0,0,0.3438,Declined,0,Female,46-55,0,Reference audit group,debt_to_income
+APP-00776,EU,57,21965,669,0.374,4.0,10160,Low,0,0,0.3809,Declined,0,Female,56+,0,Reference audit group,debt_to_income
+APP-00777,EU,19,63870,732,0.336,10.8,26373,Medium,0,1,0.6692,Approved,0,Female,19-25,1,Protected audit group,income_instability_flag
+APP-00778,EU,53,80979,750,0.229,4.1,21895,High,0,1,0.7083,Approved,0,Female,46-55,0,Reference audit group,postcode_risk_band
+APP-00779,EU,44,39001,643,0.453,0.8,21514,High,0,1,0.1541,Declined,0,Male,36-45,1,Protected audit group,employment_length
+APP-00781,EU,34,46105,692,0.211,8.1,13040,Low,0,0,0.6953,Approved,0,Female,26-35,0,Reference audit group,credit_score
+APP-00784,EU,48,66592,721,0.482,4.9,28861,Low,0,0,0.6354,Approved,0,Male,46-55,0,Reference audit group,debt_to_income
+APP-00785,EU,34,46966,694,0.617,3.0,26169,Very High,0,1,0.1984,Declined,1,Female,26-35,1,Protected audit group,debt_to_income
+APP-00790,EU,45,76386,737,0.308,9.5,32186,High,0,1,0.6562,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00791,EU,26,74563,663,0.485,6.5,31326,Very High,0,0,0.3083,Declined,0,Female,26-35,1,Protected audit group,postcode_risk_band
+APP-00793,EU,43,52754,689,0.244,3.5,25388,Very High,0,0,0.4239,Declined,0,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-00795,EU,29,32691,548,0.493,1.4,13166,Medium,1,1,0.0395,Declined,1,Male,26-35,0,Reference audit group,credit_score
+APP-00796,EU,42,61635,631,0.383,5.1,24101,Medium,0,0,0.3381,Declined,0,Female,36-45,1,Protected audit group,credit_score
+APP-00797,EU,34,56073,657,0.312,5.2,25180,Medium,1,0,0.3402,Declined,0,Male,26-35,0,Reference audit group,thin_file_flag
+APP-00798,EU,64,30393,666,0.415,6.1,11514,Medium,0,0,0.3723,Declined,0,Female,56+,1,Protected audit group,debt_to_income
+APP-00799,EU,31,34270,694,0.31,2.4,12415,Low,0,0,0.5391,Declined,0,Male,26-35,0,Reference audit group,credit_score
+APP-00803,EU,41,35038,729,0.304,7.4,14471,High,0,0,0.603,Approved,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00806,EU,37,42071,652,0.371,6.8,27500,Low,0,1,0.3489,Declined,0,Male,36-45,1,Protected audit group,income_instability_flag
+APP-00808,EU,36,85289,631,0.255,3.2,30800,Medium,0,1,0.3557,Declined,1,Male,36-45,1,Protected audit group,income_instability_flag
+APP-00810,EU,23,37680,654,0.39,8.6,20002,Very High,1,0,0.1917,Declined,0,Female,19-25,1,Protected audit group,postcode_risk_band
+APP-00813,EU,33,26191,592,0.384,8.2,8799,Low,0,1,0.1939,Declined,0,Male,26-35,1,Protected audit group,credit_score
+APP-00814,EU,55,39243,677,0.503,1.8,19618,Medium,1,0,0.2368,Declined,0,Female,46-55,0,Reference audit group,thin_file_flag
+APP-00818,EU,38,77963,681,0.42,0.5,39209,Medium,1,0,0.3304,Declined,1,Female,36-45,1,Protected audit group,employment_length
+APP-00819,EU,22,81737,743,0.35,1.2,39141,High,0,0,0.6254,Approved,0,Male,19-25,1,Protected audit group,postcode_risk_band
+APP-00820,EU,45,41978,653,0.347,1.1,20540,Low,0,1,0.3145,Declined,1,Male,36-45,0,Reference audit group,employment_length
+APP-00822,EU,40,21851,633,0.413,2.3,9409,High,0,1,0.1345,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00823,EU,23,81640,753,0.201,4.6,29880,Low,0,0,0.8445,Approved,0,Male,19-25,1,Protected audit group,credit_score
+APP-00824,EU,28,28361,689,0.196,2.1,9434,Very High,0,0,0.3832,Declined,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-00826,EU,39,66388,635,0.266,2.3,36847,Low,0,0,0.409,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-00827,EU,42,32778,694,0.467,1.6,20662,Low,0,0,0.4031,Declined,0,Male,36-45,0,Reference audit group,debt_to_income
+APP-00829,EU,19,59452,708,0.14,0.6,20959,Low,1,0,0.6076,Approved,0,Female,19-25,0,Reference audit group,employment_length
+APP-00830,EU,60,40355,705,0.282,4.7,17299,Low,0,0,0.6285,Approved,0,Female,56+,0,Reference audit group,credit_score
+APP-00831,EU,43,45600,584,0.533,9.9,19792,Medium,0,1,0.1332,Declined,1,Male,36-45,1,Protected audit group,credit_score
+APP-00834,EU,43,51155,713,0.227,7.0,9091,High,0,0,0.6566,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00835,EU,40,18000,544,0.313,5.4,8625,Very High,1,0,0.0388,Declined,1,Female,36-45,1,Protected audit group,credit_score
+APP-00838,EU,36,68257,646,0.271,7.3,42165,Medium,0,1,0.3897,Declined,0,Female,36-45,1,Protected audit group,income_instability_flag
+APP-00839,EU,31,45752,670,0.388,4.9,17512,Low,0,0,0.4811,Declined,0,Male,26-35,0,Reference audit group,debt_to_income
+APP-00840,EU,23,45062,703,0.333,5.7,12344,Medium,0,0,0.5905,Approved,0,Female,19-25,0,Reference audit group,postcode_risk_band
+APP-00842,EU,42,18000,572,0.443,3.5,9733,Medium,0,1,0.0708,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-00849,EU,51,27761,714,0.537,1.2,12327,Low,0,0,0.4359,Declined,0,Male,46-55,0,Reference audit group,debt_to_income
+APP-00850,EU,42,106860,727,0.281,2.2,50348,Medium,0,0,0.7071,Approved,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00851,EU,31,18000,608,0.37,0.5,6460,Low,0,0,0.1789,Declined,1,Male,26-35,1,Protected audit group,employment_length
+APP-00853,EU,35,36549,613,0.475,10.3,17329,Low,0,0,0.2665,Declined,0,Female,26-35,0,Reference audit group,credit_score
+APP-00855,EU,37,40609,758,0.26,0.7,12173,Low,0,0,0.7587,Approved,0,Male,36-45,0,Reference audit group,employment_length
+APP-00856,EU,36,45320,585,0.358,3.5,21801,Low,1,0,0.1519,Declined,0,Female,36-45,0,Reference audit group,credit_score
+APP-00858,EU,23,58959,687,0.282,6.1,20401,High,1,0,0.4202,Declined,0,Female,19-25,1,Protected audit group,thin_file_flag
+APP-00860,EU,51,39458,708,0.56,7.3,23250,Medium,0,0,0.4507,Declined,0,Male,46-55,0,Reference audit group,debt_to_income
+APP-00863,EU,41,55828,737,0.157,1.9,26285,Medium,0,1,0.6722,Approved,0,Male,36-45,0,Reference audit group,income_instability_flag
+APP-00864,EU,28,36604,617,0.627,6.6,22439,Low,0,0,0.1924,Declined,1,Female,26-35,0,Reference audit group,debt_to_income
+APP-00865,EU,44,37784,631,0.386,5.5,18411,Low,0,0,0.3291,Declined,1,Male,36-45,0,Reference audit group,credit_score
+APP-00866,EU,39,21288,694,0.108,10.6,6702,High,0,0,0.5553,Declined,0,Female,36-45,1,Protected audit group,postcode_risk_band
+APP-00868,EU,38,34519,619,0.395,4.9,18680,Low,0,1,0.223,Declined,0,Female,36-45,1,Protected audit group,credit_score
+APP-00869,EU,31,35647,659,0.376,0.7,16581,Low,0,0,0.3566,Declined,0,Male,26-35,1,Protected audit group,employment_length
+APP-00870,EU,43,86065,734,0.381,3.7,28710,Low,0,0,0.7409,Approved,0,Female,36-45,0,Reference audit group,debt_to_income
+APP-00872,EU,39,55809,637,0.385,6.9,21561,High,1,0,0.2283,Declined,0,Female,36-45,1,Protected audit group,thin_file_flag
+APP-00874,EU,39,25832,665,0.264,6.4,8408,Very High,0,0,0.322,Declined,0,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-00877,EU,55,35750,707,0.448,1.6,16906,Low,0,0,0.4884,Declined,0,Female,46-55,0,Reference audit group,debt_to_income
+APP-00878,EU,52,91445,725,0.453,3.1,51425,High,0,0,0.5398,Declined,0,Female,46-55,1,Protected audit group,postcode_risk_band
+APP-00881,EU,47,33242,665,0.465,4.2,12375,High,0,0,0.2766,Declined,1,Female,46-55,1,Protected audit group,postcode_risk_band
+APP-00883,EU,28,24941,544,0.564,15.5,10319,Medium,1,1,0.0408,Declined,1,Male,26-35,1,Protected audit group,credit_score
+APP-00885,EU,37,34007,550,0.415,2.1,13471,Very High,1,0,0.0396,Declined,1,Male,36-45,1,Protected audit group,credit_score
+APP-00887,EU,39,39350,655,0.226,5.7,14624,Very High,0,0,0.3372,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00890,EU,42,44561,748,0.713,2.1,25705,Medium,0,1,0.3887,Declined,1,Male,36-45,1,Protected audit group,debt_to_income
+APP-00891,EU,36,40409,821,0.196,5.6,11667,Low,0,0,0.9172,Approved,1,Female,36-45,0,Reference audit group,credit_score
+APP-00892,EU,28,93701,785,0.53,7.6,56588,High,0,0,0.7394,Approved,0,Male,26-35,0,Reference audit group,debt_to_income
+APP-00895,EU,31,41446,695,0.546,0.8,26383,Low,0,1,0.3237,Declined,0,Female,26-35,0,Reference audit group,debt_to_income
+APP-00900,EU,27,36399,550,0.279,3.3,13314,High,1,0,0.0725,Declined,1,Male,26-35,1,Protected audit group,credit_score
+APP-00908,EU,32,48759,800,0.399,4.6,18884,Medium,0,0,0.8096,Approved,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-00911,EU,44,35172,701,0.46,5.3,19625,Low,0,0,0.4985,Declined,0,Male,36-45,1,Protected audit group,debt_to_income
+APP-00912,EU,36,71160,689,0.182,4.0,29831,Medium,0,0,0.6275,Approved,0,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-00914,EU,40,33522,736,0.444,1.5,13308,Medium,1,1,0.3713,Declined,0,Female,36-45,1,Protected audit group,thin_file_flag
+APP-00915,EU,59,66514,624,0.439,3.5,41950,Low,1,0,0.2181,Declined,0,Female,56+,1,Protected audit group,thin_file_flag
+APP-00920,EU,46,68861,755,0.433,4.7,37291,Low,0,0,0.7426,Approved,0,Male,46-55,0,Reference audit group,debt_to_income
+APP-00924,EU,50,28197,665,0.369,4.4,8057,Medium,0,1,0.3181,Declined,0,Female,46-55,0,Reference audit group,income_instability_flag
+APP-00926,EU,33,42659,642,0.321,1.1,17501,Very High,0,0,0.2159,Declined,1,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-00927,EU,43,38162,723,0.255,6.1,14567,Low,0,0,0.7119,Approved,0,Male,36-45,0,Reference audit group,credit_score
+APP-00930,EU,39,37130,649,0.34,3.8,10659,Low,0,1,0.3526,Declined,0,Male,36-45,0,Reference audit group,income_instability_flag
+APP-00931,EU,32,55311,734,0.41,6.6,25043,Medium,0,0,0.6595,Approved,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-00935,EU,40,45461,573,0.486,7.4,22094,Medium,0,1,0.1205,Declined,0,Female,36-45,1,Protected audit group,credit_score
+APP-00938,EU,40,34201,602,0.291,2.7,12863,High,0,0,0.1796,Declined,1,Female,36-45,0,Reference audit group,credit_score
+APP-00939,EU,51,57700,714,0.463,2.2,24783,Low,0,0,0.572,Approved,0,Female,46-55,0,Reference audit group,debt_to_income
+APP-00940,EU,39,59444,695,0.406,2.7,16144,Medium,0,0,0.5164,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-00941,EU,27,35634,671,0.295,4.5,13451,Medium,0,0,0.4456,Declined,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-00942,EU,36,45805,629,0.398,3.9,18873,Very High,0,0,0.1912,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00943,EU,41,25050,665,0.485,18.0,11212,Low,0,0,0.381,Declined,0,Male,36-45,1,Protected audit group,debt_to_income
+APP-00948,EU,19,37470,637,0.434,4.1,13228,High,1,0,0.1632,Declined,1,Female,19-25,1,Protected audit group,thin_file_flag
+APP-00950,EU,43,39934,560,0.238,0.3,14146,Medium,1,1,0.0805,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-00952,EU,41,51761,706,0.29,1.5,23058,High,0,0,0.4922,Declined,0,Female,36-45,1,Protected audit group,postcode_risk_band
+APP-00953,EU,46,70274,650,0.642,5.3,32832,High,0,0,0.2327,Declined,0,Male,46-55,0,Reference audit group,debt_to_income
+APP-00959,EU,36,51783,730,0.407,1.3,23224,Very High,1,1,0.2942,Declined,1,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-00960,EU,69,35650,624,0.368,4.0,15380,Medium,0,1,0.2116,Declined,0,Male,56+,1,Protected audit group,credit_score
+APP-00962,EU,45,79733,702,0.295,7.9,47511,Low,0,0,0.6992,Approved,0,Female,36-45,0,Reference audit group,loan_amount
+APP-00963,EU,56,76576,730,0.269,4.9,28307,Medium,1,0,0.6421,Approved,0,Female,56+,0,Reference audit group,thin_file_flag
+APP-00966,EU,41,49620,630,0.104,3.8,6093,Low,1,0,0.4224,Declined,0,Female,36-45,0,Reference audit group,thin_file_flag
+APP-00967,EU,43,44880,656,0.457,12.3,26360,Low,0,0,0.4093,Declined,0,Male,36-45,0,Reference audit group,debt_to_income
+APP-00969,EU,25,29213,623,0.379,7.6,17070,High,1,0,0.1465,Declined,0,Female,19-25,1,Protected audit group,thin_file_flag
+APP-00972,EU,41,33750,582,0.342,5.1,19132,Low,0,0,0.1976,Declined,1,Female,36-45,1,Protected audit group,credit_score
+APP-00974,EU,26,60277,703,0.464,4.6,28494,Low,0,0,0.5661,Approved,0,Female,26-35,0,Reference audit group,debt_to_income
+APP-00977,EU,40,49308,748,0.305,5.8,26582,Low,1,0,0.6737,Approved,0,Male,36-45,0,Reference audit group,thin_file_flag
+APP-00980,EU,45,58015,850,0.469,4.0,19022,Medium,0,0,0.8865,Approved,0,Male,36-45,0,Reference audit group,debt_to_income
+APP-00981,EU,29,58123,691,0.468,10.5,32295,Low,0,0,0.5543,Declined,0,Female,26-35,0,Reference audit group,debt_to_income
+APP-00985,EU,39,62011,657,0.354,7.5,29363,Low,0,0,0.5118,Declined,1,Male,36-45,0,Reference audit group,credit_score
+APP-00987,EU,19,23575,628,0.371,1.7,10378,High,1,1,0.094,Declined,0,Male,19-25,1,Protected audit group,thin_file_flag
+APP-00990,EU,41,61469,701,0.294,3.1,23932,High,0,0,0.5226,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-00991,EU,35,29256,599,0.489,1.5,14833,Medium,0,0,0.127,Declined,0,Female,26-35,1,Protected audit group,credit_score
+APP-00992,EU,34,66492,670,0.128,9.9,30946,Medium,0,0,0.6321,Approved,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-00993,EU,21,33235,783,0.342,5.3,16049,Low,0,0,0.797,Approved,0,Male,19-25,0,Reference audit group,credit_score
+APP-00994,EU,31,29119,714,0.379,1.6,10343,Medium,0,0,0.4872,Declined,0,Male,26-35,0,Reference audit group,employment_length
+APP-00997,EU,41,27358,671,0.277,5.5,10204,Medium,0,1,0.3794,Declined,0,Male,36-45,0,Reference audit group,income_instability_flag
+APP-00999,EU,52,69644,706,0.192,3.3,23890,Low,0,1,0.6674,Approved,0,Female,46-55,0,Reference audit group,income_instability_flag
+APP-01000,EU,26,89346,690,0.337,9.5,33689,Low,0,0,0.6849,Approved,0,Female,26-35,0,Reference audit group,credit_score
+APP-01001,EU,25,68934,677,0.203,6.0,26735,Very High,0,0,0.4823,Declined,1,Female,19-25,0,Reference audit group,postcode_risk_band
+APP-01002,EU,51,26766,583,0.488,2.6,13288,Low,0,0,0.1307,Declined,0,Female,46-55,1,Protected audit group,credit_score
+APP-01008,EU,35,61753,711,0.128,7.2,15535,Low,0,0,0.7961,Approved,0,Male,26-35,0,Reference audit group,credit_score
+APP-01010,EU,46,38933,655,0.52,7.6,16839,Medium,1,1,0.198,Declined,1,Female,46-55,0,Reference audit group,debt_to_income
+APP-01011,EU,27,34636,749,0.46,2.5,17701,Medium,0,0,0.5717,Approved,0,Male,26-35,1,Protected audit group,debt_to_income
+APP-01012,EU,45,59894,663,0.461,8.0,39324,Low,0,0,0.4525,Declined,0,Male,36-45,0,Reference audit group,debt_to_income
+APP-01013,EU,44,48151,662,0.29,6.2,15839,High,0,1,0.3584,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-01014,EU,19,140210,724,0.317,5.0,60705,High,0,0,0.6907,Approved,0,Male,19-25,1,Protected audit group,postcode_risk_band
+APP-01017,EU,32,37050,611,0.379,3.9,16738,Medium,1,1,0.1263,Declined,0,Male,26-35,1,Protected audit group,credit_score
+APP-01018,EU,42,57005,576,0.172,5.9,33654,Medium,1,1,0.1482,Declined,1,Male,36-45,1,Protected audit group,credit_score
+APP-01019,EU,42,36055,703,0.172,2.7,17111,High,0,0,0.5156,Declined,0,Female,36-45,1,Protected audit group,postcode_risk_band
+APP-01020,EU,44,65623,725,0.579,3.0,33173,Medium,0,0,0.5082,Declined,0,Female,36-45,0,Reference audit group,debt_to_income
+APP-01021,EU,19,59278,713,0.326,1.8,36580,Medium,0,0,0.5562,Declined,0,Male,19-25,0,Reference audit group,postcode_risk_band
+APP-01022,EU,42,50082,676,0.312,7.2,26890,Medium,0,0,0.5057,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-01029,EU,44,29534,595,0.421,2.4,12449,Medium,0,0,0.1499,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-01030,EU,41,47528,768,0.317,4.2,13433,Very High,0,0,0.6714,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-01031,EU,34,51155,726,0.306,14.6,10897,Low,1,0,0.6797,Approved,0,Male,26-35,0,Reference audit group,thin_file_flag
+APP-01034,EU,33,28047,655,0.247,4.5,9248,Medium,1,0,0.3028,Declined,0,Female,26-35,0,Reference audit group,thin_file_flag
+APP-01035,EU,23,48513,716,0.188,5.2,23476,Low,0,0,0.7211,Approved,0,Female,19-25,0,Reference audit group,credit_score
+APP-01037,EU,31,56842,716,0.278,7.8,24312,Low,0,0,0.7326,Approved,0,Female,26-35,0,Reference audit group,credit_score
+APP-01041,EU,35,61017,654,0.384,12.7,27278,Medium,0,0,0.4401,Declined,0,Female,26-35,0,Reference audit group,postcode_risk_band
+APP-01042,EU,28,31249,519,0.526,3.3,15838,High,1,0,0.0256,Declined,0,Female,26-35,1,Protected audit group,credit_score
+APP-01043,EU,56,40371,647,0.365,7.3,13621,Low,0,1,0.3808,Declined,0,Female,56+,0,Reference audit group,income_instability_flag
+APP-01044,EU,46,48073,716,0.34,4.4,16963,Medium,0,1,0.5471,Declined,0,Female,46-55,0,Reference audit group,income_instability_flag
+APP-01045,EU,27,58365,732,0.43,14.6,23333,Low,0,0,0.7199,Approved,0,Male,26-35,0,Reference audit group,debt_to_income
+APP-01046,EU,27,30419,765,0.525,1.1,8371,Low,0,0,0.6434,Approved,0,Female,26-35,1,Protected audit group,debt_to_income
+APP-01047,EU,31,40024,664,0.27,4.7,10122,Medium,0,0,0.4688,Declined,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-01049,EU,27,51484,660,0.341,3.2,21335,Medium,0,0,0.4035,Declined,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-01051,EU,40,37573,715,0.394,10.3,16987,Low,0,0,0.6368,Approved,0,Female,36-45,0,Reference audit group,debt_to_income
+APP-01052,EU,37,53548,628,0.322,2.8,18138,Low,0,0,0.3719,Declined,0,Male,36-45,1,Protected audit group,credit_score
+APP-01053,EU,38,39386,614,0.422,2.4,13652,High,1,0,0.1205,Declined,1,Male,36-45,1,Protected audit group,credit_score
+APP-01054,EU,23,38682,626,0.289,5.3,18801,High,0,1,0.2132,Declined,1,Male,19-25,0,Reference audit group,credit_score
+APP-01055,EU,45,42616,648,0.188,1.5,9404,Medium,1,0,0.3278,Declined,0,Female,36-45,1,Protected audit group,thin_file_flag
+APP-01056,EU,26,18000,663,0.159,11.3,6654,Medium,0,0,0.4623,Declined,0,Female,26-35,0,Reference audit group,postcode_risk_band
+APP-01061,EU,20,54435,744,0.422,2.5,20338,Medium,1,1,0.4786,Declined,0,Male,19-25,0,Reference audit group,thin_file_flag
+APP-01062,EU,40,80404,581,0.418,5.7,36288,Low,0,0,0.2528,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-01064,EU,23,49703,714,0.278,6.3,14744,Medium,0,0,0.6669,Approved,0,Male,19-25,0,Reference audit group,postcode_risk_band
+APP-01065,EU,47,74955,689,0.334,8.0,35827,Medium,0,0,0.6015,Approved,0,Female,46-55,0,Reference audit group,postcode_risk_band
+APP-01067,EU,31,58478,765,0.237,3.8,24894,Very High,0,0,0.6964,Approved,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-01068,EU,42,46810,728,0.319,1.9,21568,Low,0,0,0.6577,Approved,0,Female,36-45,0,Reference audit group,employment_length
+APP-01069,EU,41,24260,674,0.214,0.7,6751,High,0,0,0.3561,Declined,0,Male,36-45,1,Protected audit group,employment_length
+APP-01070,EU,38,61425,730,0.4,9.9,24268,Very High,0,1,0.5089,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-01071,EU,27,48506,690,0.282,2.1,18896,High,0,0,0.4515,Declined,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-01072,EU,28,41671,750,0.19,2.8,14584,Medium,0,0,0.7432,Approved,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-01073,EU,34,46889,645,0.413,6.7,12001,Very High,0,0,0.2684,Declined,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-01077,EU,40,41975,717,0.334,4.1,21809,Low,0,0,0.625,Approved,0,Male,36-45,0,Reference audit group,credit_score
+APP-01078,EU,37,26633,680,0.568,2.4,16917,High,0,0,0.2098,Declined,0,Female,36-45,1,Protected audit group,debt_to_income
+APP-01079,EU,19,53860,647,0.494,3.2,20037,Very High,0,0,0.207,Declined,0,Male,19-25,1,Protected audit group,postcode_risk_band
+APP-01085,EU,44,46965,738,0.35,1.1,17974,Medium,1,0,0.5214,Declined,0,Female,36-45,0,Reference audit group,thin_file_flag
+APP-01088,EU,28,26593,621,0.411,7.3,12000,High,1,0,0.1373,Declined,1,Female,26-35,1,Protected audit group,thin_file_flag
+APP-01091,EU,38,86384,767,0.323,11.7,30546,Low,0,0,0.8635,Approved,0,Male,36-45,0,Reference audit group,credit_score
+APP-01094,EU,39,66168,768,0.487,7.3,34818,High,0,0,0.6847,Approved,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-01095,EU,33,66936,772,0.472,4.0,40546,Low,0,0,0.7537,Approved,0,Female,26-35,1,Protected audit group,debt_to_income
+APP-01096,EU,33,57526,600,0.677,2.3,33218,Medium,0,1,0.0952,Declined,0,Female,26-35,1,Protected audit group,debt_to_income
+APP-01097,EU,42,63919,850,0.414,3.1,30538,Low,0,0,0.9087,Approved,0,Female,36-45,0,Reference audit group,debt_to_income
+APP-01098,EU,33,41213,708,0.412,3.4,17846,Medium,0,0,0.5022,Declined,1,Female,26-35,1,Protected audit group,postcode_risk_band
+APP-01100,EU,35,60012,641,0.207,7.0,22481,Low,0,0,0.5386,Declined,0,Male,26-35,0,Reference audit group,credit_score
+APP-01101,EU,45,74463,636,0.28,4.8,34317,Medium,1,1,0.2631,Declined,0,Female,36-45,0,Reference audit group,thin_file_flag
+APP-01103,EU,41,53640,707,0.16,4.3,7218,Medium,0,0,0.7038,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-01104,EU,59,26054,721,0.401,4.2,11221,High,0,0,0.4468,Declined,0,Female,56+,0,Reference audit group,postcode_risk_band
+APP-01106,EU,32,36451,708,0.281,2.6,13357,Medium,1,0,0.4509,Declined,1,Female,26-35,1,Protected audit group,thin_file_flag
+APP-01107,EU,26,70915,637,0.232,1.8,29353,High,0,0,0.3395,Declined,0,Female,26-35,1,Protected audit group,postcode_risk_band
+APP-01109,EU,39,46930,765,0.252,2.3,18897,Medium,0,0,0.7559,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-01110,EU,51,71269,666,0.376,8.5,19116,Low,0,0,0.5822,Approved,0,Female,46-55,1,Protected audit group,debt_to_income
+APP-01111,EU,27,117542,751,0.394,1.4,50853,Low,0,0,0.7702,Approved,0,Male,26-35,1,Protected audit group,employment_length
+APP-01115,EU,36,33639,622,0.344,11.0,14315,Medium,0,1,0.2507,Declined,0,Male,36-45,1,Protected audit group,credit_score
+APP-01118,EU,46,52346,587,0.262,2.9,23711,Low,1,1,0.1554,Declined,0,Female,46-55,1,Protected audit group,credit_score
+APP-01119,EU,42,33074,637,0.244,6.7,12207,Low,1,1,0.2832,Declined,0,Male,36-45,0,Reference audit group,thin_file_flag
+APP-01120,EU,33,55879,691,0.249,7.6,21688,Medium,1,1,0.4614,Declined,1,Male,26-35,0,Reference audit group,thin_file_flag
+APP-01122,EU,35,72202,586,0.245,2.5,18732,High,1,1,0.1283,Declined,1,Female,26-35,1,Protected audit group,credit_score
+APP-01126,EU,45,42066,600,0.387,5.2,24177,Low,0,0,0.2401,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-01127,EU,20,51705,737,0.317,6.1,21359,Medium,0,0,0.7031,Approved,0,Male,19-25,1,Protected audit group,postcode_risk_band
+APP-01129,EU,31,30302,540,0.436,9.7,18221,Medium,0,0,0.0915,Declined,0,Male,26-35,1,Protected audit group,credit_score
+APP-01130,EU,31,92681,706,0.515,3.4,41872,Low,0,0,0.584,Approved,0,Male,26-35,1,Protected audit group,debt_to_income
+APP-01131,EU,42,59995,649,0.372,4.3,27936,Medium,0,0,0.3764,Declined,0,Female,36-45,0,Reference audit group,credit_score
+APP-01132,EU,25,39134,716,0.281,4.3,16734,Very High,0,0,0.4803,Declined,0,Female,19-25,1,Protected audit group,postcode_risk_band
+APP-01133,EU,30,74754,737,0.349,5.0,35762,Medium,0,0,0.7032,Approved,0,Female,26-35,0,Reference audit group,postcode_risk_band
+APP-01135,EU,49,53827,709,0.345,1.8,22582,Medium,1,0,0.4459,Declined,0,Female,46-55,1,Protected audit group,thin_file_flag
+APP-01136,EU,46,125781,657,0.47,10.8,76297,Low,0,0,0.518,Declined,0,Female,46-55,0,Reference audit group,debt_to_income
+APP-01137,EU,49,39142,726,0.259,2.7,19718,Low,0,0,0.6661,Approved,0,Male,46-55,0,Reference audit group,credit_score
+APP-01138,EU,40,64686,698,0.317,3.5,16134,Medium,0,0,0.5958,Approved,0,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-01140,EU,63,62067,686,0.289,5.8,22869,Medium,0,0,0.5801,Approved,1,Male,56+,1,Protected audit group,postcode_risk_band
+APP-01142,EU,32,37662,704,0.431,2.4,15422,High,0,0,0.3948,Declined,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-01148,EU,37,34446,614,0.35,1.8,10889,Medium,1,0,0.1608,Declined,1,Male,36-45,1,Protected audit group,credit_score
+APP-01150,EU,46,46755,607,0.349,8.0,21019,Very High,0,0,0.1941,Declined,0,Female,46-55,1,Protected audit group,credit_score
+APP-01152,EU,44,30682,659,0.404,3.9,12046,High,0,0,0.2732,Declined,0,Female,36-45,1,Protected audit group,postcode_risk_band
+APP-01153,EU,38,46112,729,0.292,1.7,21246,High,0,1,0.4939,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-01154,EU,23,62933,645,0.35,8.4,23928,Medium,1,0,0.3411,Declined,0,Male,19-25,1,Protected audit group,thin_file_flag
+APP-01157,EU,32,28073,614,0.414,3.1,9767,Low,0,0,0.234,Declined,0,Male,26-35,0,Reference audit group,credit_score
+APP-01163,EU,33,79738,647,0.369,0.6,29029,Medium,0,1,0.3117,Declined,0,Male,26-35,0,Reference audit group,employment_length
+APP-01164,EU,44,62613,677,0.503,4.8,40320,Medium,0,0,0.3873,Declined,0,Male,36-45,0,Reference audit group,debt_to_income
+APP-01165,EU,19,53627,766,0.232,5.2,15182,Medium,0,0,0.8138,Approved,0,Female,19-25,1,Protected audit group,postcode_risk_band
+APP-01166,EU,28,84073,554,0.24,3.8,27162,Low,1,0,0.1817,Declined,0,Female,26-35,0,Reference audit group,credit_score
+APP-01168,EU,39,39568,720,0.284,3.0,15231,High,0,0,0.5417,Declined,0,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-01169,EU,52,77382,765,0.4,12.4,34108,Low,0,0,0.8258,Approved,0,Male,46-55,0,Reference audit group,debt_to_income
+APP-01170,EU,37,118572,725,0.29,3.9,54563,Medium,0,0,0.7275,Approved,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-01171,EU,33,74360,631,0.455,5.7,54562,High,0,0,0.2378,Declined,1,Female,26-35,1,Protected audit group,postcode_risk_band
+APP-01172,EU,35,53261,665,0.508,4.7,15155,High,0,0,0.3184,Declined,0,Male,26-35,0,Reference audit group,debt_to_income
+APP-01175,EU,34,76014,636,0.357,1.9,29733,Low,1,0,0.3033,Declined,0,Female,26-35,0,Reference audit group,thin_file_flag
+APP-01179,EU,54,52647,696,0.315,4.9,16103,Low,0,0,0.631,Approved,0,Male,46-55,0,Reference audit group,credit_score
+APP-01180,EU,41,102783,646,0.439,3.8,51746,Low,0,0,0.4321,Declined,0,Female,36-45,0,Reference audit group,debt_to_income
+APP-01181,EU,19,54252,656,0.378,5.6,18756,Low,1,0,0.3711,Declined,1,Female,19-25,0,Reference audit group,thin_file_flag
+APP-01182,EU,24,39864,627,0.203,6.5,17410,Low,0,0,0.432,Declined,0,Female,19-25,0,Reference audit group,credit_score
+APP-01184,EU,27,26674,628,0.553,1.1,18469,High,0,1,0.087,Declined,0,Female,26-35,1,Protected audit group,debt_to_income
+APP-01186,EU,43,108959,690,0.463,2.9,34820,High,0,0,0.4686,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-01188,EU,28,24209,655,0.287,3.1,10589,Low,0,0,0.3814,Declined,1,Female,26-35,0,Reference audit group,credit_score
+APP-01189,EU,45,57501,650,0.231,0.9,26147,High,0,0,0.3418,Declined,0,Male,36-45,0,Reference audit group,employment_length
+APP-01190,EU,41,58497,676,0.302,4.3,28119,Low,0,0,0.5515,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-01191,EU,24,51698,692,0.305,7.5,13719,Low,0,1,0.6015,Approved,0,Male,19-25,0,Reference audit group,income_instability_flag
+APP-01192,EU,52,44162,649,0.268,4.2,22457,Medium,0,1,0.3307,Declined,0,Male,46-55,0,Reference audit group,income_instability_flag
+APP-01193,EU,39,47220,699,0.27,11.8,19586,Low,0,0,0.6748,Approved,0,Female,36-45,0,Reference audit group,credit_score
+APP-01195,EU,33,46349,625,0.303,0.6,11915,High,0,0,0.2417,Declined,0,Female,26-35,0,Reference audit group,employment_length
+APP-01196,EU,45,42018,712,0.329,12.9,15267,Low,1,0,0.584,Approved,0,Female,36-45,0,Reference audit group,thin_file_flag
+APP-01199,EU,31,69780,643,0.431,8.7,41220,Very High,0,1,0.2208,Declined,0,Female,26-35,1,Protected audit group,postcode_risk_band
+APP-01200,EU,25,73630,726,0.304,3.1,42191,Low,0,0,0.7031,Approved,0,Female,19-25,0,Reference audit group,loan_amount
+APP-01202,EU,37,46775,708,0.345,6.5,17609,Very High,0,0,0.4774,Declined,1,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-01203,EU,35,91758,701,0.274,1.0,21973,High,0,0,0.5706,Approved,0,Female,26-35,1,Protected audit group,employment_length
+APP-01206,EU,37,127339,653,0.46,7.1,71129,Medium,0,0,0.4509,Declined,0,Female,36-45,0,Reference audit group,debt_to_income
+APP-01208,EU,19,49050,782,0.267,1.8,18990,High,0,0,0.7446,Approved,0,Male,19-25,0,Reference audit group,postcode_risk_band
+APP-01211,EU,34,47428,676,0.391,2.4,19768,High,0,0,0.3493,Declined,1,Female,26-35,0,Reference audit group,postcode_risk_band
+APP-01214,EU,29,57211,611,0.366,5.6,27819,High,1,0,0.1614,Declined,0,Male,26-35,1,Protected audit group,credit_score
+APP-01217,EU,44,29668,740,0.184,7.8,12282,Low,0,0,0.7764,Approved,0,Male,36-45,0,Reference audit group,credit_score
+APP-01218,EU,36,59065,679,0.231,8.1,26580,Medium,0,0,0.5992,Approved,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-01220,EU,46,26355,582,0.352,3.5,8391,High,1,0,0.0849,Declined,1,Male,46-55,1,Protected audit group,credit_score
+APP-01221,EU,47,46732,670,0.295,6.7,13669,Medium,0,0,0.5151,Declined,0,Male,46-55,1,Protected audit group,postcode_risk_band
+APP-01222,EU,23,65460,688,0.405,5.5,26228,Low,0,0,0.5782,Approved,0,Male,19-25,0,Reference audit group,debt_to_income
+APP-01223,EU,38,59332,632,0.357,6.4,19014,Medium,1,0,0.2832,Declined,0,Male,36-45,1,Protected audit group,thin_file_flag
+APP-01225,EU,29,44327,701,0.272,3.3,18243,Medium,0,0,0.5616,Approved,0,Female,26-35,0,Reference audit group,postcode_risk_band
+APP-01226,EU,36,58272,619,0.309,7.5,25093,Medium,1,0,0.266,Declined,1,Male,36-45,1,Protected audit group,credit_score
+APP-01227,EU,43,38082,713,0.441,5.5,18969,Low,1,0,0.4644,Declined,1,Female,36-45,1,Protected audit group,thin_file_flag
+APP-01228,EU,32,104993,620,0.328,11.0,37002,High,0,0,0.3674,Declined,0,Female,26-35,0,Reference audit group,credit_score
+APP-01229,EU,23,39709,634,0.251,3.8,18820,High,0,0,0.2826,Declined,1,Female,19-25,0,Reference audit group,postcode_risk_band
+APP-01231,EU,23,35167,655,0.443,4.4,11209,High,0,0,0.2723,Declined,0,Female,19-25,1,Protected audit group,postcode_risk_band
+APP-01232,EU,33,54554,624,0.314,5.6,19570,High,0,0,0.291,Declined,1,Female,26-35,1,Protected audit group,credit_score
+APP-01233,EU,35,57304,707,0.237,4.1,32420,Medium,0,0,0.616,Approved,0,Male,26-35,0,Reference audit group,postcode_risk_band
+APP-01235,EU,29,48101,637,0.228,1.5,12635,High,0,0,0.3185,Declined,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-01237,EU,38,47330,732,0.45,11.3,25477,Low,0,0,0.6742,Approved,0,Male,36-45,0,Reference audit group,debt_to_income
+APP-01239,EU,40,95662,758,0.327,13.2,39757,Low,0,0,0.8488,Approved,0,Female,36-45,0,Reference audit group,credit_score
+APP-01242,EU,38,24895,635,0.439,5.3,13669,Low,0,1,0.222,Declined,0,Male,36-45,1,Protected audit group,income_instability_flag
+APP-01244,EU,33,75248,703,0.178,4.7,26521,Very High,0,0,0.5797,Approved,0,Female,26-35,0,Reference audit group,postcode_risk_band
+APP-01247,EU,29,64672,720,0.323,4.3,8909,Low,0,0,0.7313,Approved,0,Female,26-35,0,Reference audit group,credit_score
+APP-01248,EU,51,25608,536,0.49,4.1,19818,Low,1,0,0.0451,Declined,1,Male,46-55,1,Protected audit group,credit_score
+APP-01250,EU,36,44351,529,0.526,7.1,21885,Medium,1,0,0.0537,Declined,1,Female,36-45,1,Protected audit group,credit_score
+APP-01251,EU,37,41143,695,0.452,2.9,16994,Very High,0,0,0.317,Declined,0,Female,36-45,1,Protected audit group,postcode_risk_band
+APP-01252,EU,40,71292,671,0.323,2.9,33287,Very High,0,1,0.2984,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-01256,EU,42,50873,590,0.361,4.8,31779,Medium,1,0,0.1373,Declined,1,Male,36-45,0,Reference audit group,credit_score
+APP-01258,EU,45,48019,663,0.359,2.7,25540,Medium,0,0,0.374,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-01260,EU,59,37474,548,0.508,0.1,11967,Medium,0,0,0.0749,Declined,0,Male,56+,1,Protected audit group,credit_score
+APP-01263,EU,41,37467,643,0.377,7.9,23640,High,0,0,0.2756,Declined,0,Female,36-45,1,Protected audit group,postcode_risk_band
+APP-01264,EU,42,40224,587,0.257,7.9,16972,Low,0,0,0.302,Declined,0,Female,36-45,0,Reference audit group,credit_score
+APP-01270,EU,24,75570,750,0.404,3.5,35117,High,0,0,0.6441,Approved,1,Female,19-25,0,Reference audit group,postcode_risk_band
+APP-01271,EU,42,42077,738,0.228,3.8,12688,High,0,0,0.6566,Approved,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-01272,EU,38,78596,761,0.39,3.8,49140,Low,0,0,0.7671,Approved,0,Female,36-45,0,Reference audit group,loan_amount
+APP-01273,EU,26,36531,650,0.261,4.5,18503,Low,0,0,0.4318,Declined,0,Female,26-35,0,Reference audit group,credit_score
+APP-01274,EU,35,37488,602,0.193,1.5,21557,Medium,0,0,0.2327,Declined,0,Male,26-35,0,Reference audit group,credit_score
+APP-01275,EU,35,44403,588,0.393,4.5,20575,Medium,0,0,0.1829,Declined,0,Female,26-35,0,Reference audit group,credit_score
+APP-01276,EU,39,86767,686,0.417,4.9,39000,Low,0,0,0.5815,Approved,0,Male,36-45,0,Reference audit group,debt_to_income
+APP-01277,EU,37,34979,678,0.304,4.2,17949,Low,0,0,0.4935,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-01278,EU,27,70636,734,0.119,7.6,26977,Low,0,0,0.8453,Approved,0,Male,26-35,0,Reference audit group,credit_score
+APP-01279,EU,43,78581,715,0.451,5.8,28453,Medium,0,0,0.6189,Approved,0,Male,36-45,0,Reference audit group,debt_to_income
+APP-01281,EU,47,52332,555,0.075,10.9,19346,Low,1,0,0.2398,Declined,0,Male,46-55,1,Protected audit group,credit_score
+APP-01288,EU,48,35827,594,0.238,13.9,21196,Medium,1,0,0.1842,Declined,0,Male,46-55,1,Protected audit group,credit_score
+APP-01289,EU,41,70374,692,0.3,5.7,20983,Low,0,0,0.6667,Approved,0,Male,36-45,0,Reference audit group,credit_score
+APP-01290,EU,27,75111,609,0.163,1.4,13788,Low,0,0,0.4301,Declined,0,Male,26-35,1,Protected audit group,credit_score
+APP-01291,EU,58,41173,696,0.402,2.2,22128,High,1,0,0.281,Declined,0,Female,56+,1,Protected audit group,thin_file_flag
+APP-01293,EU,34,41749,599,0.426,5.1,20410,High,0,0,0.1562,Declined,0,Female,26-35,0,Reference audit group,credit_score
+APP-01297,EU,50,104172,759,0.374,5.7,36751,Low,0,0,0.8303,Approved,0,Female,46-55,0,Reference audit group,debt_to_income
+APP-01299,EU,37,44014,601,0.49,4.6,20634,Low,0,1,0.1742,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-01300,EU,21,28756,669,0.246,9.7,11340,Low,0,0,0.5408,Declined,0,Male,19-25,0,Reference audit group,credit_score
+APP-01302,EU,58,48626,652,0.283,1.5,26747,Low,0,0,0.4121,Declined,0,Female,56+,0,Reference audit group,employment_length
+APP-01306,EU,34,75314,706,0.56,2.5,48156,Medium,0,0,0.4435,Declined,0,Female,26-35,1,Protected audit group,debt_to_income
+APP-01308,EU,44,44866,634,0.4,3.6,11840,Medium,0,1,0.2556,Declined,0,Female,36-45,0,Reference audit group,income_instability_flag
+APP-01310,EU,19,34501,737,0.296,11.3,15502,High,0,0,0.6336,Approved,0,Male,19-25,1,Protected audit group,postcode_risk_band
+APP-01312,EU,30,44680,605,0.363,7.7,29313,Medium,1,0,0.1741,Declined,0,Male,26-35,1,Protected audit group,credit_score
+APP-01313,EU,39,51891,598,0.332,14.4,22877,Low,0,1,0.2714,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-01314,EU,41,38156,669,0.466,0.0,17900,Low,0,1,0.2882,Declined,0,Male,36-45,1,Protected audit group,employment_length
+APP-01315,EU,33,54616,553,0.4,4.6,22808,Medium,0,0,0.1348,Declined,0,Male,26-35,0,Reference audit group,credit_score
+APP-01317,EU,30,49037,745,0.297,3.2,21403,Medium,0,0,0.6933,Approved,0,Female,26-35,0,Reference audit group,postcode_risk_band
+APP-01319,EU,47,45756,696,0.255,4.2,12121,High,0,0,0.5262,Declined,0,Female,46-55,0,Reference audit group,postcode_risk_band
+APP-01320,EU,48,64901,783,0.293,12.1,30726,High,0,1,0.7678,Approved,0,Male,46-55,0,Reference audit group,postcode_risk_band
+APP-01323,EU,40,24814,617,0.463,2.0,11372,Medium,0,1,0.1303,Declined,1,Female,36-45,1,Protected audit group,credit_score
+APP-01335,EU,25,37888,566,0.394,2.3,14267,Low,0,0,0.1521,Declined,1,Male,19-25,1,Protected audit group,credit_score
+APP-01339,EU,37,61373,824,0.302,3.3,34644,High,0,0,0.8382,Approved,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-01341,EU,31,32579,590,0.506,11.9,17783,High,0,0,0.1233,Declined,0,Male,26-35,0,Reference audit group,credit_score
+APP-01342,EU,34,93970,771,0.42,5.5,35217,Very High,1,0,0.6091,Approved,0,Male,26-35,1,Protected audit group,postcode_risk_band
+APP-01352,EU,33,55748,638,0.224,8.9,22901,Medium,0,1,0.4036,Declined,0,Male,26-35,0,Reference audit group,income_instability_flag
+APP-01353,EU,48,68457,774,0.184,7.0,19458,Low,0,0,0.8921,Approved,0,Female,46-55,1,Protected audit group,credit_score
+APP-01356,EU,56,48255,720,0.263,3.7,26182,High,0,0,0.5616,Approved,0,Male,56+,1,Protected audit group,postcode_risk_band
+APP-01360,EU,30,39898,755,0.238,2.2,17426,Low,0,0,0.7589,Approved,0,Female,26-35,0,Reference audit group,credit_score
+APP-01361,EU,34,31546,675,0.41,12.1,18121,High,0,0,0.3447,Declined,0,Female,26-35,1,Protected audit group,postcode_risk_band
+APP-01364,EU,41,88747,730,0.394,4.7,51630,Low,0,0,0.7097,Approved,0,Male,36-45,0,Reference audit group,debt_to_income
+APP-01367,EU,38,50773,665,0.22,5.1,25217,Medium,0,0,0.4953,Declined,0,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-01370,EU,37,40883,667,0.493,1.4,20896,Very High,0,0,0.2019,Declined,0,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-01371,EU,34,30573,609,0.49,8.0,17105,High,0,1,0.1237,Declined,0,Female,26-35,1,Protected audit group,credit_score
+APP-01373,EU,49,63507,753,0.206,4.5,20522,Low,0,0,0.8304,Approved,0,Female,46-55,0,Reference audit group,credit_score
+APP-01378,EU,22,56153,688,0.272,4.9,13388,Low,1,0,0.5416,Declined,0,Female,19-25,0,Reference audit group,thin_file_flag
+APP-01379,EU,43,29863,674,0.319,2.2,14067,Medium,0,0,0.3802,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-01381,EU,49,48120,733,0.32,5.3,27720,Very High,0,0,0.5327,Declined,0,Male,46-55,0,Reference audit group,postcode_risk_band
+APP-01382,EU,45,51957,655,0.455,0.9,18501,Medium,0,0,0.3129,Declined,0,Female,36-45,0,Reference audit group,employment_length
+APP-01383,EU,42,60487,669,0.306,4.0,27318,Medium,0,0,0.4748,Declined,0,Female,36-45,0,Reference audit group,postcode_risk_band
+APP-01384,EU,38,97067,624,0.375,4.4,38678,High,0,0,0.2998,Declined,0,Female,36-45,1,Protected audit group,credit_score
+APP-01385,EU,41,39876,663,0.345,2.6,14208,Low,0,0,0.4371,Declined,0,Male,36-45,0,Reference audit group,credit_score
+APP-01387,EU,49,102425,674,0.518,5.4,40118,Low,1,1,0.359,Declined,0,Male,46-55,0,Reference audit group,thin_file_flag
+APP-01390,EU,39,101497,747,0.413,5.7,42955,High,0,0,0.6924,Approved,0,Male,36-45,1,Protected audit group,postcode_risk_band
+APP-01391,EU,36,30424,690,0.296,3.7,13554,Medium,0,0,0.4705,Declined,0,Male,36-45,0,Reference audit group,postcode_risk_band
+APP-01395,EU,34,63662,775,0.128,6.3,29075,Medium,0,0,0.8644,Approved,0,Female,26-35,0,Reference audit group,postcode_risk_band
+APP-01400,EU,51,51386,732,0.361,2.7,27084,Medium,0,0,0.6098,Approved,0,Female,46-55,0,Reference audit group,postcode_risk_band
