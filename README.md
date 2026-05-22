@@ -1,6 +1,6 @@
 # MH6822 Regulatory Technology — Assignment 1
 
-Name: Pengxiang Gong  
+Name: Gong Pengxiang  
 Matriculation ID: G2505431H  
 Email: GONG0093@e.ntu.edu.sg  
 
