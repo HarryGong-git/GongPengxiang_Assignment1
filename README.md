@@ -246,13 +246,3 @@ This project does **not** claim that:
 - The tool automatically repairs model bias.
 
 The tool supports evidence generation, jurisdiction-bound monitoring, risk-tiered escalation and management review.
-
-## GitHub Submission Note
-
-The contents of this folder are intended to be uploaded to a GitHub repository and shared with the instructor's GitHub handle:
-
-```text
-Geekdom
-```
-
-If there are GitHub access issues, the instructor should be contacted by email as required in the assignment instructions.
