@@ -93,16 +93,12 @@ PengxiangGong_Assignment1/
         │
         ├── Task3_Regulatory_Mapping_Table/
         │   ├── Task3_Regulatory_Mapping_Table.pdf
-        │   ├── Task3_Regulatory_Mapping_Table.docx
         │   ├── Task3_Regulatory_Mapping_Table.md
         │   └── Task3_Regulatory_Mapping_Table.csv
         │
         └── Task3_Model_Card_or_Tool_Card/
             ├── Task3_Model_Card_or_Tool_Card.pdf
-            ├── Task3_Model_Card_or_Tool_Card.docx
             └── Task3_Model_Card_or_Tool_Card.md
-```
-
 ## How to Review the Submission
 
 ### Task 1
