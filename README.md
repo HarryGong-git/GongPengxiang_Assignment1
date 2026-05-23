@@ -88,7 +88,7 @@ PengxiangGong_Assignment1/
         │   └── Task3_One_Page_Summary.md
         │
         ├── Task3_Senior_Management_Presentation/
-        │   ├── Task3_Senior_Management_Presentation.pptx 
+        │   ├── Task3_Senior_Management_detailed_slides.pptx
         │   ├── RegTech_Presentation_GongPengxiang.pptx
         │   ├── RegTech_Presentation_GongPengxiang.pdf
         │   └── Presentation_video.mp4
